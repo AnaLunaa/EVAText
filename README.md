@@ -1,16 +1,26 @@
-# AsistenteVirtual
+# Asistente virtual para el proceso evaluativo de la corrección de textos
+
 ## Descripción
 Este asistente es un complemento de Ribbon para Word, el cual agrega una extensión con funcionalidades adicionales a Microsoft Word con el fin de mejorar el proceso de corrección de trabajos escritos por estudiantes en español académico, la productividad y la experiencia del usuario. 
-## Instalación
- - Requisitos: Aplicable desde Word 2009 en adelante.
-   ## Instrucciones
-   1. Abrir el [enlace](http://https://udeaeduco-my.sharepoint.com/:u:/r/personal/lmarcela_quintero_udea_edu_co/Documents/LAURA/U%20de%20A/2023/Proyecto%20Tutor%20de%20correcci%C3%B3n%20textual/Modelado/Ejemplo.zip?csf=1&web=1&e=bUZBWy "enlace")
-   2. Descarga y descomprime la carpeta "Ejemplo".
-   3.  ![image](https://github.com/AnaLunaa/AsistenteVirtual/assets/142351584/d57ed38d-6374-4175-a402-6f25dcdd5e87)
-   4. En un archivo de Word ve a Archivo y luego a Opciones, ahí seleccionas "Complementos". Verifica que esté en la opción "Complementos COM", finalmente presiona Ir.
-   5.  ![image](https://github.com/AnaLunaa/AsistenteVirtual/assets/142351584/11328835-cf22-4dda-b841-be9b4f917e0d)
-   6. Por último, agrega el Setup, ubicado en la carpeta que descargaste anteriormente.
-   7.   ![image](https://github.com/AnaLunaa/AsistenteVirtual/assets/142351584/8eea2666-3365-48f0-a957-e0e0fee15c72)
 
+## Instalación
+### Requisitos 
+Aplicable desde Word 2009 en adelante.
+### Instrucciones
+ 1. Abre el siguiente [enlace](https://udeaeduco-my.sharepoint.com/personal/lmarcela_quintero_udea_edu_co/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Flmarcela%5Fquintero%5Fudea%5Fedu%5Fco%2FDocuments%2FLAURA%2FU%20de%20A%2F2023%2FProyecto%20Tutor%20de%20correcci%C3%B3n%20textual%2FModelado%2FAsistente%20virtual%20para%20el%20proceso%20evaluativo%20de%20la%20correcci%C3%B3n%20de%20textos%2Ezip&parent=%2Fpersonal%2Flmarcela%5Fquintero%5Fudea%5Fedu%5Fco%2FDocuments%2FLAURA%2FU%20de%20A%2F2023%2FProyecto%20Tutor%20de%20correcci%C3%B3n%20textual%2FModelado&ga=1) y descarga la carpeta Corrector, luego la descomprimes.
+ 2. En un documento de Word ve a Archivo y después a Opciones, ahí busca "complementos". Asegúrate de tener señalada la opción resaltada en la imagen guía, después presionar Ir.
+  ![image](https://github.com/AnaLunaa/AsistenteVirtual/assets/142351584/bedc4893-7d62-4d10-88c9-ea12d95b06df)
+ 3. En Agregar busca la carpeta 
+
+
+
+## Uso
+[Explica aquí cómo se utiliza el complemento en Word. Proporciona instrucciones claras y concisas sobre cómo acceder a las funcionalidades del complemento y cómo aprovechar al máximo sus características].
+
+## Capturas de pantalla
+[Si es posible, agrega algunas capturas de pantalla que muestren cómo se ve el complemento en Word y cómo se utilizan algunas de sus características].
+
+## Contribución
+[Aquí puedes indicar cómo otras personas pueden contribuir al desarrollo del complemento si estás aceptando contribuciones públicas].
 
 

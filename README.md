@@ -40,6 +40,7 @@ Cuando identifiques el error, resáltalo y busca en las pestallas del Complement
 ## Autores
 -  Laura Marcela Quintero Montoya
 -  Jorge Mauricio Molina Mejía
+-  María Isabel Marín Morales
 - Ana Luna Pulgarín Arango
   Facultad de Comunicaciones y Filología
   

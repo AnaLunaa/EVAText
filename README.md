@@ -41,7 +41,8 @@ Cuando identifiques el error, resáltalo y busca en las pestallas del Complement
 -  Laura Marcela Quintero Montoya
 -  Jorge Mauricio Molina Mejía
 -  María Isabel Marín Morales
-- Ana Luna Pulgarín Arango
+-  Ana Luna Pulgarín Arango
+  
   Facultad de Comunicaciones y Filología
   
    Universidad de Antioquia UdeA, Calle 70 No. 52-21

@@ -45,7 +45,7 @@ Cuando identifiques el error, resáltalo y busca en las pestallas del Complement
   
   Facultad de Comunicaciones y Filología
   
-   Universidad de Antioquia UdeA, Calle 70 No. 52-21
+  Universidad de Antioquia UdeA, Calle 70 No. 52-21
   
    Medellín, Colombia 
 

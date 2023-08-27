@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B798249-EA5D-F0E4-1899-8B3CE3029892" name="CARACTERÍSTICA">
+<createdBy>Marco</createdBy>
+<createdTime>2023-08-05 15:54:37 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="088A56D6-BD67-6E5E-1F79-FD4CBA8544EA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="30EBC401-6175-B738-847E-5F41AE2B08BD">
+<createdBy>Marco</createdBy>
+<createdTime>2023-08-05 15:54:49 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="088A56D6-BD67-6E5E-1F79-FD4CBA8544EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="F605CD8A-919B-F654-1CE9-F8963648779C">
+<createdBy>Marco</createdBy>
+<createdTime>2023-08-05 15:55:05 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="088A56D6-BD67-6E5E-1F79-FD4CBA8544EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="238B40B1-E4FA-5C54-2E2E-FD95634FB428">
+<createdBy>Marco</createdBy>
+<createdTime>2023-08-05 18:02:03 UTC</createdTime>
+<generatorID>9A323E0F-C9F7-DA17-42CC-AEF868C08401</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="088A56D6-BD67-6E5E-1F79-FD4CBA8544EA" value="true"/>
+</engineerTo>
+<referedAttribute>C7E20BBE-4437-49B6-24E1-72CAC5CE0FA0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CBB8C32C-466F-B9C2-3C32-C184BE60796F" name="CARACTERÍSTICA PK">
+<createdBy>Marco</createdBy>
+<createdTime>2023-08-05 15:55:03 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="088A56D6-BD67-6E5E-1F79-FD4CBA8544EA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>30EBC401-6175-B738-847E-5F41AE2B08BD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

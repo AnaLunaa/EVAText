@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8A8A6E5-7E43-5936-B6F6-4E0444F693D0" name="OBSERVACIÓN">
+<createdBy>Marco</createdBy>
+<createdTime>2023-08-05 16:23:17 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="088A56D6-BD67-6E5E-1F79-FD4CBA8544EA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C696CA96-43DB-5E56-3698-E3B41EEAEF38">
+<createdBy>Marco</createdBy>
+<createdTime>2023-08-05 16:23:49 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="088A56D6-BD67-6E5E-1F79-FD4CBA8544EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_creación" id="2D8F6A70-977E-862A-50AD-3B96A19FCD6D">
+<createdBy>Marco</createdBy>
+<createdTime>2023-08-05 16:25:16 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="088A56D6-BD67-6E5E-1F79-FD4CBA8544EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contexto_antes" id="7DDA9422-0724-E684-FA9C-36BEE70F5F80">
+<createdBy>Marco</createdBy>
+<createdTime>2023-08-05 16:25:39 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="088A56D6-BD67-6E5E-1F79-FD4CBA8544EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contexto_después" id="6900D616-CEDB-3EDA-1203-269A367D9FBA">
+<createdBy>Marco</createdBy>
+<createdTime>2023-08-05 16:26:11 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="088A56D6-BD67-6E5E-1F79-FD4CBA8544EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="palabra" id="32EC63F8-87FD-6E78-C122-B6DF3E9BDEE8">
+<createdBy>Marco</createdBy>
+<createdTime>2023-08-05 16:26:48 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="088A56D6-BD67-6E5E-1F79-FD4CBA8544EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="palabra_corregida" id="4C0BCECB-DA41-9D22-E839-B84298B976DE">
+<createdBy>Marco</createdBy>
+<createdTime>2023-08-05 16:26:59 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="088A56D6-BD67-6E5E-1F79-FD4CBA8544EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id__" id="0CD3B3D8-B45F-3B10-6A51-D5287F88325D">
+<createdBy>Marco</createdBy>
+<createdTime>2023-08-05 16:51:16 UTC</createdTime>
+<generatorID>3519D67A-B867-7507-3760-E92FA85B443E</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="088A56D6-BD67-6E5E-1F79-FD4CBA8544EA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5F41B423-6733-48F5-3E7C-4CF075DE531A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_" id="6584A9FA-FE6B-4922-09BD-9E8804372516">
+<createdBy>Marco</createdBy>
+<createdTime>2023-08-07 01:38:34 UTC</createdTime>
+<generatorID>DA21FBC4-228B-29F3-66FB-3807825ED36B</generatorID>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="088A56D6-BD67-6E5E-1F79-FD4CBA8544EA" value="true"/>
+</engineerTo>
+<referedAttribute>F6FFD1A1-B06D-BF07-EE4B-6D981E6A74F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="565F10DB-A22A-4F92-FC41-CCCA89516532" name="OBSERVACIÓN PK">
+<createdBy>Marco</createdBy>
+<createdTime>2023-08-05 16:24:20 UTC</createdTime>
+<ownerDesignName>Diagrama ER</ownerDesignName>
+<engineerTo>
+<item key="088A56D6-BD67-6E5E-1F79-FD4CBA8544EA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C696CA96-43DB-5E56-3698-E3B41EEAEF38</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -39,18 +39,20 @@ Cuando identifiques el error, resáltalo y busca en las pestallas del Complement
 
 ## Autores
 -  Laura Marcela Quintero Montoya
--  Jorge Mauricio Molina Mejía
--  María Isabel Marín Morales
 -  Ana Luna Pulgarín Arango
-  
-  Facultad de Comunicaciones y Filología
-  
+-  María Isabel Marín Morales
+-  Jorge Mauricio Molina Mejía
+
+
+  Grupo de estudios sociolingüísticos
+  Facultad de Comunicaciones y Filología  
   Universidad de Antioquia UdeA, Calle 70 No. 52-21
-  
-   Medellín, Colombia 
+  Medellín, Colombia. 
 
 
 ## Contribución
-[Aquí puedes indicar cómo otras personas pueden contribuir al desarrollo del complemento si estás aceptando contribuciones públicas].
+
+   Financiado por la convocatoria ConTIC investigo de la Vicerrectoría de Docencia de la Universidad de Antioquia.
+
 
 

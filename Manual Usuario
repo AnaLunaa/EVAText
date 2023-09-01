@@ -1,1 +1,46 @@
+Manual de usuario 
+
+1 	DESCRIPCIÓN DEL SISTEMA
+1.1 	Objeto
+<>
+
+ 
+
+1.3 	Funcionalidad
+<Introduzca contenido y borre cuadro>
+ 
+
+
+
+2 	MAPA DEL SISTEMA
+2.1 	Modelo Lógico
+<Introduzca contenido y borre cuadro>
+ 
+2.2 	Navegación
+<Para navegar por el complemento ubique el tipo de problema comunicativo que desea agregar como comentario en el documento. Luego dele click para que se despliegue el menu de opciónes
+
+	Pestaña 1: macroestructa
+          Esta refiere a la estructura de la oración. 
+    Tiene las siguientes caracteristicas:
+      1. Correferencialidad nominal: se refiere a la elación de forma existente entre un componente nominal de la oraciôn y sus referentes. Por lo tanto, puedes encontrar las siguientes opciones para agregar al documento: 
+    Pluralidad	Falta de concordancia entre constituyentes o sintagmas	Concordancia de número	C#	Debes tener en cuenta sí el elemento al que te refieres está en singular o plural. 
+		Concordancia de género	CG	Debes tener en cuenta sí el elemento al que te refieres está en femenino o masculino.
+    Ambigüedad léxica	Cuando a una expresión se le puede atribuir más de un significado o este no queda claro. 	Repetición léxica	RLAmg	Puedes evitar la repetición léxica usando sinónimos o pronombres.
+		Imprecisión por homonimia	Hom	Revisa la homonimia de las palabras, estas confundiendo haya con halla, ahí con hay, vaya con valla...
+		Imprecisión por polisemia	Pol	Considera usar sinónimos en lugar de palabras parónimas (una palabra con múltiples significados).
+
+
+
+
+
+
+
+
+
+4 	FAQ
+<Introduzca contenido y borre cuadro>
+ 
+
+
+
 

@@ -16,7 +16,7 @@ Este asistente es un complemento de Ribbon para Word, el cual agrega una extensi
    
 ### Instrucciones
  ¡Ahora sí, empecemos!
- 1. Descarga de carpeta: en la parte superior de esta página busca el botón verde "Code", allí encontrarás la opción de "Download ZIP", presionas ahí.
+ 1. Descarga de carpeta denominada Instalador: en la parte superior de esta página busca el botón verde "Code", allí encontrarás la opción de "Download ZIP", presionas ahí.
  
  ![image](https://github.com/AnaLunaa/AsistenteVirtual/assets/142351584/31a53b3a-0f66-4af6-8f6d-3d9f1d624513)
  

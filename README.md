@@ -1,4 +1,6 @@
-# Asistente virtual para el proceso evaluativo de la corrección de textos
+# EVAText
+Entorno Virtual para el proceso evaluativo de Textos 
+
 
 ## Presentación
  Este proyecto hace parte de la Convocatoria conTIC investigo de la Universidad de Antioquia y fue elaborado por coordinadores, profesores y estudiantes del Semillero Corpus Ex Machina, perteneciente al Grupo de Estudios Sociolingüísticos (GES) de la Facultad de Comunicaciones y Filología. La investigación parte de un interrogante sobre los procesos de corrección y retroalimentación de trabajos de escritura académica y cómo se pueden optimizar mediante el uso de tecnologías aplicadas a la educación; de manera que se mejoren los procesos de alfabetización académica y la enseñanza de la escritura académica. 

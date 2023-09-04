@@ -62,6 +62,14 @@
 					<button id="Button45" label="Coma apositiva"  onAction="Delimitadores11" />
 					<button id="Button46" label="Coma hiperbática"  onAction="Delimitadores12" />
 					<button id="Button47" label="Coma conjuntiva"  onAction="Delimitadores13" />
+					<button id="Button113" label="Tilde"  onAction="Delimitadores17" />
+					<button id="Button114" label="Tilde diacrítica"  onAction="Delimitadores18" />
+					<button id="Button115" label="Tilde en otras formas"  onAction="Delimitadores19" />
+					<button id="Button116" label="Mayúscula inicial"  onAction="Delimitadores20" />
+					<button id="Button117" label="Mayúscula sostenida"  onAction="Delimitadores21" />
+					<button id="Button118" label="Mayúscula después de dos puntos"  onAction="Delimitadores22" />
+					<button id="Button119" label="Mayúscula inicial de primera palabra"  onAction="Delimitadores23" />
+					<button id="Button120" label="Minúscula"  onAction="Delimitadores24" />
 				</menu>
 			</group>
 			<group id="Group4" label="Coherencia">
@@ -82,7 +90,7 @@
 					<button id="Button59" label="Ambigüedad temática"  onAction="Coherencia12" />
 				</menu>
 			</group>
-			<group id="Group5" label="Estrucutra">
+			<group id="Group5" label="Estructura">
 				<menu id="Menu8" label="Título" size="large" imageMso="E" >
 					<button id="Button60" label="Extensión"  onAction="Estructura1" />
 					<button id="Button61" label="Estructura"  onAction="Estructura2" />
@@ -132,6 +140,9 @@
 					<button id="Button91" label="Guion"  onAction="Delimitadores14" />
 					<button id="Button92" label="Parentesis"  onAction="Delimitadores15" />
 					<button id="Button93" label="Comillas"  onAction="Delimitadores16" />
+					<button id="Button121" label="Cursiva"  onAction="Delimitadores25" />
+					<button id="Button122" label="Redonda"  onAction="Delimitadores26" />
+					
 				</menu>
 			</group>
 			<group id="Group7" label="Estrategias discursivas">

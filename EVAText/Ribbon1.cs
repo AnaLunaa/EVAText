@@ -730,6 +730,75 @@ namespace EVAText
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
             currentRange.Comments.Add(currentRange, "Cuando se realiza una cita textual de menos de 40 palabras se debe poner entre comillas.");
         }
+        public void Delimitadores17(Office.IRibbonControl control)
+        {
+            //Tilde
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Recuerda que debes tildar los monosílabos, las palabras agudas terminadas en -n o en -s que no tienen otra consonante antes de esa terminación, o las que terminen en las vocales a, e, i, o, u. También, las palabras llanas o graves que terminen en -y, una consonante que no sea -n o -s, o en más de una consonante. Y no olvides que todas las palabras esdrújulas y sobresdrújulas deben llevar tilde.");
+        }
+        public void Delimitadores18(Office.IRibbonControl control)
+        {
+            // Tilde diacrítica
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "¡Es muy importante recordar la tilde diacrítica! La necesitas para distinguir palabras que se escriben igual pero tienen significados diferentes. Generalmente, se utiliza en monosílabos como tu/tú, el/él, si/sí, dé/de, sé/se, o en palabras interrogativas y exclamativas como: cómo, cuándo, cuánto, (a)dónde, qué, cuál, cuán, quién... Usar la tilde adecuadamente en estas palabras es fundamental para comunicar con precisión. ¡Así evitaremos confusiones!");
+        }
+        public void Delimitadores19(Office.IRibbonControl control)
+        {
+            //Tilde en otras formas
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Los extranjerismos adaptados y las palabras compuestas siguen las reglas de acentuación prosódica, lo que significa que deben seguir las reglas de acentuación de las palabras graves, agudas y esdrújulas. Esto es importante para asegurarte de que estén escritos correctamente y se entienda su pronunciación.");
+        }
+        public void Delimitadores20(Office.IRibbonControl control)
+        {
+            //Mayúscula inicial
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Después de un punto seguido, un punto de interrogación o exclamación, es importante que utilices la mayúscula sostenida. Lo mismo aplica para los nombres propios de personas, cuerpos celestes, animales, plantas y objetos singularizados, signos del Zodiaco, accidentes geográficos, barrios, urbanizaciones, calles, espacios urbanos y vías de comunicación, establecimientos comerciales, culturales o recreativos, guerras, batallas, acontecimientos históricos relevantes, antropón");
+        }
+        public void Delimitadores21(Office.IRibbonControl control)
+        {
+            //Mayúscula sostenida
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Ten en cuenta que la mayúscula sostenida solo debes emplearla en cabeceras de diarios y revistas, en siglas y acrónimos, en números romanos y para hacer énfasis en algo fundamental del escrito y buscas llamar la atención del lector.");
+        }
+        public void Delimitadores22(Office.IRibbonControl control)
+        {
+            //Mayúscula después de dos puntos
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Después de dos puntos, solo debes poner mayúscula inicial cuando reproduces textualmente las palabras de otra persona, cuando estás haciendo una enumeración o cuando hay una completa independencia sintáctica y de sentido. ");
+        }
+        public void Delimitadores23(Office.IRibbonControl control)
+        {
+            //Mayúscula inicial de primera palabra
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Considera que debes poner mayúscula inicial a la primera palabra del título de cualquier obra de creación, a las subdivisiones o secciones internas de una publicación o un documento, a las palabras significativas que forman parte del nombre de eventos culturales o deportivos, de premios y condecoraciones.");
+        }
+        public void Delimitadores24(Office.IRibbonControl control)
+        {
+            //Minúscula
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Estima que debes escribir con minúscula los apodos, sobrenombres o seudónimos, los artículos que preceden  a los nombres de accidentes geográficos, los nombres de países, los continentes y los títulos abreviados de obras de creación. También debes usar minúscula en tratamientos, títulos nobiliarios, dignidades o cargos, profesiones, pueblos o etnias, nombres de las lenguas, puntos cardinales, hemisferios, las líneas imaginarias y los polos geográficos, días de la semana, meses y estaciones del año, las notas musicales, los principios activos de los medicamentos, las monedas, los nombres de las escuelas y corrientes de las diversas ramas del conocimiento, así como los de estilos, movimientos y géneros artísticos, las religiones, así como los sustantivos que designan el conjunto de sus fieles.");
+        }
+        public void Delimitadores25(Office.IRibbonControl control)
+        {
+            //Cursiva
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Ten en cuenta que debes poner cursiva en los extranjerismos no adaptados, incluidos los latinismos y nombres científicos. Igualmente, debes usarla en los títulos de las obras, tales como libros, discos o revistas, cuadros, películas, series de televisión...");
+        }
+        public void Delimitadores26(Office.IRibbonControl control)
+        {
+            //Redonda
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Considera que los nombres de emisoras, editoriales, casos policiales, leyes, colecciones de obras, las monedas y los nombres propios debes escribirlos con letra redonda. ");
+        }
+
+
+
+
+
+
+
+
+
         #endregion
 
         #region Asistentes

@@ -1,0 +1,12 @@
+C:\Users\Laura\source\repos\Evatext\EVAText\bin\Debug\EVAText.dll
+C:\Users\Laura\source\repos\Evatext\EVAText\bin\Debug\EVAText.pdb
+C:\Users\Laura\source\repos\Evatext\EVAText\bin\Debug\EVAText.dll.manifest
+C:\Users\Laura\source\repos\Evatext\EVAText\bin\Debug\EVAText.vsto
+C:\Users\Laura\source\repos\Evatext\EVAText\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\Laura\source\repos\Evatext\EVAText\obj\Debug\EVAText.csproj.AssemblyReference.cache
+C:\Users\Laura\source\repos\Evatext\EVAText\obj\Debug\EVAText.Properties.Resources.resources
+C:\Users\Laura\source\repos\Evatext\EVAText\obj\Debug\EVAText.csproj.GenerateResource.cache
+C:\Users\Laura\source\repos\Evatext\EVAText\obj\Debug\EVAText.csproj.CoreCompileInputs.cache
+C:\Users\Laura\source\repos\Evatext\EVAText\obj\Debug\EVAText.csproj.CopyComplete
+C:\Users\Laura\source\repos\Evatext\EVAText\obj\Debug\EVAText.dll
+C:\Users\Laura\source\repos\Evatext\EVAText\obj\Debug\EVAText.pdb

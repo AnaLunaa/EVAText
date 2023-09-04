@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+		<tab id="customTab" label="Correcciones">
+			<group id="Grupo1" label="Microestructuras">
+				<menu id="Menu1" label="Microestructura" size="large" imageMso="M" >
+					<button id="Button1" label="Concordancia de número"  onAction="Micro1" />
+					<button id="Button2" label="Concordancia de género"  onAction="Micro2" />
+					<button id="Button3" label="Repetición léxica"  onAction="Micro3"/>
+					<button id="Button4" label="Imprecisión por homonimia" imageMso="H"  onAction="Micro4" supertip="Imprecisión por homonimia"/>
+					<button id="Button5" label="Imprecisión por homonimia" imageMso="P" onAction="Micro5" supertip="Imprecisión por homonimia"/>
+					<button id="Button6" label="Queísmo" imageMso="Q" onAction="Micro6" supertip="Queísmo"/>
+					<button id="Button7" label="Dequeísmo" imageMso="Q" onAction="Micro7" supertip="Concordancia de número"/>
+					<button id="Button8" label="Ausencia de predicado" imageMso="A"  onAction="Micro8" supertip="Concordancia de número"/>
+					<button id="Button9" label="Tiempo verbal incongruente" imageMso="T"  onAction="Micro9" supertip="Tiempo verbal incongruente"/>
+					<button id="Button10" label="Modo verbal incongruente" imageMso="M" onAction="Micro10" supertip="Modo verbal incongruente"/>
+					<button id="Button11" label="Condicional incongruente" imageMso="C" onAction="Micro11" supertip="Condicional incongruente"/>
+				</menu>
+			</group>
+			<group id="Group2" label="Cohesión">
+				<menu id="Menu2" label="Marcadores discursivos" size="large" imageMso="D" >
+					<button id="Button12" label="Comentadores"  onAction="MD1" />
+					<button id="Button13" label="Ordenadores"  onAction="MD2" />
+					<button id="Button14" label="Digresores"  onAction="MD3" />
+					<button id="Button15" label="Aditivos" onAction="MD4" />
+					<button id="Button16" label="Consecutivos" onAction="MD5" />
+					<button id="Button17" label="Contraargumentativos" onAction="MD6" />
+					<button id="Button18" label="Explicativos" onAction="MD7"/>
+					<button id="Button19" label="De rectificación" onAction="MD8" />
+					<button id="Button20" label="De distanciamiento" onAction="MD9" />
+					<button id="Button21" label="Recapitulativos" onAction="MD10"/>
+					<button id="Button22" label="De refuerzo argumentativos" onAction="MD11"/>
+					<button id="Button23" label="De concreción" onAction="MD12" />
+					<button id="Button24" label="Epistémicos" onAction="MD13" />
+				</menu>
+				<menu id="Menu3" label="Léxico-Gramatical" size="large" imageMso="G" >
+					<button id="Button25" label="Aditiva"  onAction="Cohesion1" />
+					<button id="Button26" label="Adversativa"  onAction="Cohesion2" />
+					<button id="Button27" label="Causal"  onAction="Cohesion3" />
+					<button id="Button28" label="Temporal"  onAction="Cohesion4" />
+				</menu>
+				<menu id="Menu4" label="Léxica " size="large" imageMso="L" >
+					<button id="Button29" label="Referencia pronominal"  onAction="Cohesion5" />
+					<button id="Button30" label="Sujeto discursivo"  onAction="Cohesion6" />
+					<button id="Button31" label="Referencia personal"  onAction="Cohesion7" />
+					<button id="Button32" label="Referencia temporal"  onAction="Cohesion8" />
+					<button id="Button33" label="Referencia espacial"  onAction="Cohesion9" />
+					<button id="Button34" label="Referencia comparativa"  onAction="Cohesion10" />
+				</menu>
+				<menu id="Menu5" label="Delimitadores" size="large" imageMso="D" >
+					<button id="Button35" label="Punto seguido"  onAction="Delimitadores1" />
+					<button id="Button36" label="Punto aparte"  onAction="Delimitadores2" />
+					<button id="Button37" label="Punto y coma de separación "  onAction="Delimitadores3" />
+					<button id="Button38" label="Punto y coma de enumeración "  onAction="Delimitadores4" />
+					<button id="Button39" label="Punto y coma de conjunción"  onAction="Delimitadores5" />
+					<button id="Button40" label="Dos puntos"  onAction="Delimitadores6" />
+					<button id="Button41" label="Coma enumerativa"  onAction="Delimitadores7" />
+					<button id="Button42" label="Coma vocativa"  onAction="Delimitadores8" />
+					<button id="Button43" label="Coma  elíptica"  onAction="Delimitadores9" />
+					<button id="Button44" label="Coma explicativa"  onAction="Delimitadores10" />
+					<button id="Button45" label="Coma apositiva"  onAction="Delimitadores11" />
+					<button id="Button46" label="Coma hiperbática"  onAction="Delimitadores12" />
+					<button id="Button47" label="Coma conjuntiva"  onAction="Delimitadores13" />
+				</menu>
+			</group>
+			<group id="Group4" label="Coherencia">
+				<menu id="Menu6" label="Adecuación" size="large" imageMso="A" >
+					<button id="Button48" label="Enunciador subjetivo"  onAction="Coherencia1" />
+					<button id="Button49" label="Muletillas"  onAction="Coherencia2" />
+					<button id="Button50" label="Verbos valorativos"  onAction="Coherencia3" />
+					<button id="Button51" label="Léxico coloquial"  onAction="Coherencia4" />
+					<button id="Button52" label="Verbo haber"  onAction="Coherencia5" />
+					<button id="Button53" label="Uso de subjuntivo"  onAction="Coherencia6" />
+				</menu>
+				<menu id="Menu7" label="Relaciones" size="large" imageMso="R" >
+					<button id="Button54" label="Contradicciones"  onAction="Coherencia7" />
+					<button id="Button55" label="Redundancias"  onAction="Coherencia8" />
+					<button id="Button56" label="Perdida del tema"  onAction="Coherencia9" />
+					<button id="Button57" label="Salto temáticos"  onAction="Coherencia10" />
+					<button id="Button58" label="Incoherencia"  onAction="Coherencia11" />
+					<button id="Button59" label="Ambigüedad temática"  onAction="Coherencia12" />
+				</menu>
+			</group>
+			<group id="Group5" label="Estrucutra">
+				<menu id="Menu8" label="Título" size="large" imageMso="E" >
+					<button id="Button60" label="Extensión"  onAction="Estructura1" />
+					<button id="Button61" label="Estructura"  onAction="Estructura2" />
+					<button id="Button62" label="Retórica textual"  onAction="Estructura3" />
+					<button id="Button63" label="Tema"  onAction="Estructura4" />
+				</menu>
+				<menu id="Menu9" label="Introducción" size="large" imageMso="I" >
+					<button id="Button64" label="Objetivos"  onAction="Estructura5" />
+					<button id="Button65" label="Planteamiento del problema"  onAction="Estructura6" />
+					<button id="Button66" label="Antecedentes"  onAction="Estructura7" />
+					<button id="Button67" label="Enumeración del contenido"  onAction="Estructura8" />
+				</menu>
+				<menu id="Menu10" label="Conclusiones" size="large" imageMso="C" >
+					<button id="Button68" label="Soluciones"  onAction="Estructura9" />
+					<button id="Button69" label="Aplicaciones"  onAction="Estructura10" />
+					<button id="Button70" label="Hipótesis"  onAction="Estructura11" />
+					<button id="Button71" label="Implicaciones"  onAction="Estructura12" />
+				</menu>
+			</group>
+			<group id="Group6" label="Intertextualidad">
+				<menu id="Menu11" label="Citación" size="large" imageMso="C" >
+					<button id="Button72" label="Cita textual"  onAction="citacion1" />
+					<button id="Button73" label="Cita narrativa o parafraseada"  onAction="citacion2" />
+					<button id="Button74" label="Cita en bloque"  onAction="citacion3" />
+					<button id="Button75" label="Referencia de la cita en la lista"  onAction="citacion4" />
+					<button id="Button76" label="Autenticidad"  onAction="citacion5" />
+					<button id="Button77" label="Cita directa"  onAction="citacion6" />
+					<button id="Button78" label="Cita indirecta"  onAction="citacion7" />
+					<button id="Button79" label="Lista de referencias"  onAction="citacion8" />
+					<button id="Button80" label="Datos de referencias"  onAction="citacion9" />
+				</menu>
+				<menu id="Menu12" label="Funciones" size="large" imageMso="F" >
+					<button id="Button81" label="De definición"  onAction="citacion10" />
+					<button id="Button82" label="Confirmatoria"  onAction="citacion11" />
+					<button id="Button83" label="De posicionamiento"  onAction="citacion12" />
+					<button id="Button84" label="Dialéctica"  onAction="citacion13" />
+					<button id="Button85" label="De apoyo o expansión"  onAction="citacion14" />
+				</menu>
+				<menu id="Menu13" label="Paratextos" size="large" imageMso="P" >
+					<button id="Button86" label="Títulos"  onAction="citacion15" />
+					<button id="Button87" label="Subtítulos"  onAction="citacion16" />
+					<button id="Button88" label="Notas al pie"  onAction="citacion17" />
+					<button id="Button89" label="lustraciones y gráficas"  onAction="citacion18" />
+					<button id="Button90" label="Índices o tablas de contenido"  onAction="citacion19" />
+				</menu>
+				<menu id="Menu14" label="Delimitadores" size="large" imageMso="D" >
+					<button id="Button91" label="Guion"  onAction="Delimitadores14" />
+					<button id="Button92" label="Parentesis"  onAction="Delimitadores15" />
+					<button id="Button93" label="Comillas"  onAction="Delimitadores16" />
+				</menu>
+			</group>
+			<group id="Group7" label="Estrategias discursivas">
+				<menu id="Menu15" label="Modalización" size="large" imageMso="E" >
+					<button id="Button94" label="Espaciado"  onAction="ED1" />
+					<button id="Button95" label="Letra"  onAction="ED2" />
+					<button id="Button96" label="Signos de exclamación"  onAction="ED3" />
+					<button id="Button97" label="Signos de interrogación"  onAction="ED4" />
+					<button id="Button98" label="Puntos suspensivos"  onAction="ED5" />
+					<button id="Button99" label="Sangría"  onAction="ED6" />
+					<button id="Button100" label="Sesgos"  onAction="ED7" />
+				</menu>
+				<menu id="Menu16" label="Mediación" size="large" imageMso="M" >
+					<button id="Button101" label="Macro reglas textuales"  onAction="ED8" />
+					<button id="Button102" label="Atenuación con usted"  onAction="ED8" />
+					<button id="Button103" label="Atenuación del acto amenazador"  onAction="ED10" />
+					<button id="Button104" label="Atenuación con se"  onAction="ED11" />
+					<button id="Button105" label="Condicional de cortesía"  onAction="ED12" />
+					<button id="Button106" label="Condicional de modesti"  onAction="ED13" />
+					<button id="Button107" label="Plural inclusivo, sociativo o de modestia"  onAction="ED14" />
+				</menu>
+				<menu id="Menu17" label="Propósito" size="large" imageMso="P" >
+					<button id="Button108" label="Narrar"  onAction="ED14" />
+					<button id="Button109" label="Describir"  onAction="ED15" />
+					<button id="Button110" label="Exponer"  onAction="ED16" />
+					<button id="Button111" label="Argumentar"  onAction="ED17" />
+					<button id="Button112" label="Instruir"  onAction="ED17" />
+				</menu>
+			</group>
+		</tab>
+    </tabs>
+  </ribbon>
+</customUI>
+

@@ -2,14 +2,14 @@
 <customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
   <ribbon>
     <tabs>
-		<tab id="customTab" label="Correcciones">
+		<tab id="customTab" label="EVAText">
 			<group id="Grupo1" label="Microestructuras">
 				<menu id="Menu1" label="Microestructura" size="large" imageMso="M" >
 					<button id="Button1" label="Concordancia de número"  onAction="Micro1" />
 					<button id="Button2" label="Concordancia de género"  onAction="Micro2" />
 					<button id="Button3" label="Repetición léxica"  onAction="Micro3"/>
 					<button id="Button4" label="Imprecisión por homonimia" imageMso="H"  onAction="Micro4" supertip="Imprecisión por homonimia"/>
-					<button id="Button5" label="Imprecisión por homonimia" imageMso="P" onAction="Micro5" supertip="Imprecisión por homonimia"/>
+					<button id="Button5" label="Imprecisión por polisemia" imageMso="P" onAction="Micro5" supertip="Imprecisión por homonimia"/>
 					<button id="Button6" label="Queísmo" imageMso="Q" onAction="Micro6" supertip="Queísmo"/>
 					<button id="Button7" label="Dequeísmo" imageMso="Q" onAction="Micro7" supertip="Concordancia de número"/>
 					<button id="Button8" label="Ausencia de predicado" imageMso="A"  onAction="Micro8" supertip="Concordancia de número"/>
@@ -115,12 +115,13 @@
 					<button id="Button72" label="Cita textual"  onAction="citacion1" />
 					<button id="Button73" label="Cita narrativa o parafraseada"  onAction="citacion2" />
 					<button id="Button74" label="Cita en bloque"  onAction="citacion3" />
-					<button id="Button75" label="Referencia de la cita en la lista"  onAction="citacion4" />
-					<button id="Button76" label="Autenticidad"  onAction="citacion5" />
-					<button id="Button77" label="Cita directa"  onAction="citacion6" />
-					<button id="Button78" label="Cita indirecta"  onAction="citacion7" />
-					<button id="Button79" label="Lista de referencias"  onAction="citacion8" />
-					<button id="Button80" label="Datos de referencias"  onAction="citacion9" />
+					<button id="Button76" label="Autenticidad"  onAction="citacion4" />
+					<button id="Button77" label="Cita directa"  onAction="citacion5" />
+					<button id="Button78" label="Cita indirecta"  onAction="citacion6" />
+					<button id="Button75" label="Referencia de la cita en la lista"  onAction="citacion7" />
+					<button id="Button79" label="Referencia enlistada sin cita"  onAction="citacion8" />
+					<button id="Button123" label="Datos de referencias"  onAction="citacion9" />
+					
 				</menu>
 				<menu id="Menu12" label="Funciones" size="large" imageMso="F" >
 					<button id="Button81" label="De definición"  onAction="citacion10" />
@@ -161,7 +162,7 @@
 					<button id="Button103" label="Atenuación del acto amenazador"  onAction="ED10" />
 					<button id="Button104" label="Atenuación con se"  onAction="ED11" />
 					<button id="Button105" label="Condicional de cortesía"  onAction="ED12" />
-					<button id="Button106" label="Condicional de modesti"  onAction="ED13" />
+					<button id="Button106" label="Condicional de modestia"  onAction="ED13" />
 					<button id="Button107" label="Plural inclusivo, sociativo o de modestia"  onAction="ED14" />
 				</menu>
 				<menu id="Menu17" label="Propósito" size="large" imageMso="P" >

@@ -58,13 +58,13 @@ namespace EVAText
             //Concordancia de número
 
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Debes tener en cuenta sí el elemento al que te refieres está en singular o plural.");
+            currentRange.Comments.Add(currentRange, "Debes tener en cuenta si el elemento al que te refieres está en singular o plural. ");
         }
         public void Micro2(Office.IRibbonControl control)
         {
             //Concordancia de género
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Debes tener en cuenta sí el elemento al que te refieres está en femenino o masculino.");
+            currentRange.Comments.Add(currentRange, "Debes tener en cuenta si el elemento al que te refieres está en femenino o masculino.");
         }
         public void Micro3(Office.IRibbonControl control)
         {
@@ -76,7 +76,7 @@ namespace EVAText
         {
             //Imprecisión por homonimia
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Revisa la homonimia de las palabras, estas confundiendo haya con halla, ahí con hay, vaya con valla...");
+            currentRange.Comments.Add(currentRange, "Revisa la homonimia de las palabras, estás confundiendo haya con halla, ahí con hay, vaya con valla...");
         }
         public void Micro5(Office.IRibbonControl control)
         {
@@ -100,13 +100,13 @@ namespace EVAText
         {
             //Ausencia de predicado
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Qué es lo que pasa con esta acción. Es necesario para que se entienda la cualidad, propiedad o estado del sujeto o del complemento directo que estas mencionando.");
+            currentRange.Comments.Add(currentRange, "Debes agregar qué es lo que pasa con esta acción. Es necesario para que se entienda la cualidad, propiedad o estado del sujeto o del complemento directo que estás mencionando. ");
         }
         public void Micro9(Office.IRibbonControl control)
         {
             //Tiempo verbal incongruente
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Es importante mantener la consistencia en el uso de los tiempos verbales dentro de un párrafo. Te sugiero revisar y asegurarte de que los verbos se ajusten adecuadamente al contexto y tiempo narrativo que deseas transmitir.");
+            currentRange.Comments.Add(currentRange, "Es importante que mantengas la consistencia en el uso de los tiempos verbales dentro de un párrafo. Te sugiero revisar y asegurarte de que los verbos se ajusten adecuadamente al contexto y tiempo narrativo que deseas transmitir.");
         }
         public void Micro10(Office.IRibbonControl control)
         {
@@ -155,7 +155,7 @@ namespace EVAText
         {
             //MD6 contraargumentativos
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Para unir dos miembros de manera que el segundo sea supresor o atenuador de alguna conclusión a la se pudiera obtener del primero, puedes usar: en cambio, por el contrario, por contra, antes bien, sin embargo, no obstante, con todo...");
+            currentRange.Comments.Add(currentRange, "embros de manera que el segundo sea supresor o atenuador de alguna conclusión a la se pudiera obtener del primero, puedes usar: en cambio, por el contrario, por contra, antes bien, sin embargo, no obstante, con todo...");
         }
         public void MD7(Office.IRibbonControl control)
         {
@@ -291,7 +291,7 @@ namespace EVAText
         }
         public void Coherencia1(Office.IRibbonControl control)
         {
-            //Enunciador public voidjetivo
+            //Enunciador subjetivo
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
             currentRange.Comments.Add(currentRange, "Procura aplicar las estrategias de despersonalización (voz pasiva con ‘ser’, formas impersonales y pasivas con ‘se’, nominalizaciones), evita el uso de la primera persona en singular.");
         }
@@ -321,9 +321,9 @@ namespace EVAText
         }
         public void Coherencia6(Office.IRibbonControl control)
         {
-            //Uso de public voidjuntivo
+            //Uso del subjuntivo
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Presta atención a los verbos en contextos de incertidumbre, deseo, opinión o posibilidad. Asegúrate de emplear correctamente el public voidjuntivo en estas situaciones");
+            currentRange.Comments.Add(currentRange, "Presta atención a los verbos en contextos de incertidumbre, deseo, opinión o posibilidad. Asegúrate de emplear correctamente el subjuntivo en estas situaciones. ");
         }
         public void Coherencia7(Office.IRibbonControl control)
         {
@@ -341,19 +341,19 @@ namespace EVAText
         {
             //Perdida del tema
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "No queda clara la relación de esta idea con el tema y propósito del escrito. Parece que estuvieras hablando de otra cosa diferente.");
+            currentRange.Comments.Add(currentRange, " Parece que estuvieras hablando de otra cosa diferente. No queda clara la relación de esta idea con el tema y propósito del escrito.");
         }
         public void Coherencia10(Office.IRibbonControl control)
         {
             //Salto temáticos
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Es importante que cuando abordes un public voidtema digas todo sobre él y luego pases al siguiente no que vayas brincando entre todos los public voidtemas porque será muy difícil la comprensión.");
+            currentRange.Comments.Add(currentRange, "Es importante que cuando abordes un subtema digas todo sobre él y luego pases al siguiente, no que presentes todos los subtemas al mismo tiempo porque será difícil la comprensión.");
         }
         public void Coherencia11(Office.IRibbonControl control)
         {
             //Incoherencia
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "No queda clara la relación de esta idea con la anterior y/o la siguiente.");
+            currentRange.Comments.Add(currentRange, "No queda clara la relación de esta idea con la anterior y/o la siguiente. Procura Procura especificar mejor.");
         }
         public void Coherencia12(Office.IRibbonControl control)
         {
@@ -395,7 +395,7 @@ namespace EVAText
         {
             //Planteamiento del problema
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Es necesario aclarar el problema y el contexto del tema.");
+            currentRange.Comments.Add(currentRange, "Es necesario que aclares el problema y el contexto del tema.");
         }
         public void Estructura7(Office.IRibbonControl control)
         {
@@ -407,7 +407,7 @@ namespace EVAText
         {
             //Enumeración del contenido
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Es bueno que le aclares al lector los public voidtemas que desarrollaras en tu trabajo.");
+            currentRange.Comments.Add(currentRange, "Es bueno que le aclares al lector los subtemas que desarrollarás en tu trabajo. Así como las principales fuentes de información que empleaste y para qué.");
         }
         public void Estructura9(Office.IRibbonControl control)
         {
@@ -425,62 +425,62 @@ namespace EVAText
         {
             //Hipótesis
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda explicar de manera clara y precisa cómo se cumplieron los objetivos mencionados en la introducción y abordados en el contenido o si el punto de vista fue valido y{o hasta qué punto.");
+            currentRange.Comments.Add(currentRange, "Recuerda explicar de manera clara y precisa cómo se cumplieron los objetivos mencionados en la introducción y abordados en el contenido, o si el punto de vista fue válido y//o hasta qué punto.");
         }
         public void Estructura12(Office.IRibbonControl control)
         {
             //Implicaciones
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Una buena de resumir el escrito en las conclusiones es enumerando los pro y los contras del tema y los principales public voidtemas abordados.");
+            currentRange.Comments.Add(currentRange, "Una buena estrategia de resumir el escrito en las conclusiones es enumerando los pro y los contras del tema y los principales subtemas abordados. Puedes aplicarlo.");
         }
 
         public void citacion1(Office.IRibbonControl control)
         {
             //Cita textual
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "La cita textual es una reproducción literal no mayor a 40 palabras, va entre comillas y debes incluir la página.");
+            currentRange.Comments.Add(currentRange, "Recuerda que la cita textual es una reproducción literal no mayor a 40 palabras, va entre comillas y debes incluir la página.");
         }
         public void citacion2(Office.IRibbonControl control)
         {
             //Cita narrativa o parafraseada
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "En la cita parafraseada se dice con palabras propias las ideas de otra fuente. No va entre comillas, ni lleva número de página.");
+            currentRange.Comments.Add(currentRange, "Recuerda que en la cita parafraseada se dice con palabras propias las ideas de otra fuente. No va entre comillas, ni lleva número de página.");
         }
         public void citacion3(Office.IRibbonControl control)
         {
             //Cita en bloque
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "La cita en bloque es una reproducción literal mayor a 40 palabras. No va entre comillas pero si en un párrafo aparte y debes incluir el número de página.");
+            currentRange.Comments.Add(currentRange, "Recuerda que la cita en bloque es una reproducción literal mayor a 40 palabras. No va entre comillas pero si en un párrafo aparte y debes incluir el número de página.");
         }
-        public void citacion4(Office.IRibbonControl control)
-        {
-            //Referencia de la cita en la lista
-            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Este texto no está enlistado en las referencias empleadas para hacer el trabajo.");
-        }
-        public void citacion5(Office.IRibbonControl control)
+                public void citacion4(Office.IRibbonControl control)
         {
             //Autenticidad
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
             currentRange.Comments.Add(currentRange, "Es imprescindible que tu texto sea original, que sean tus ideas y tus palabras. Pero asegúrate de incluir referencias precisas cada vez que utilices ideas, datos o palabras de otros autores.");
         }
-        public void citacion6(Office.IRibbonControl control)
+        public void citacion5(Office.IRibbonControl control)
         {
             //Cita directa
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
             currentRange.Comments.Add(currentRange, "Cuando reproduces las ideas de otro debes aclarar quién es. Para ello es importante que escribas su apellido y el año de la publicación entre el paréntesis (En APA) o escribas el superíndice (en IEEE) al final.");
         }
-        public void citacion7(Office.IRibbonControl control)
+        public void citacion6(Office.IRibbonControl control)
         {
             //Cita indirecta
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
             currentRange.Comments.Add(currentRange, "Cuando dentro de la idea que citas empleas el apellido del autor debes aclarar el año de la publicación entre paréntesis (en APA) o el superíndice (en IEEE).");
         }
+        public void citacion7(Office.IRibbonControl control)
+        {
+            //Referencia de la cita en la lista
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Este texto no está enlistado en las referencias empleadas para hacer el trabajo. Debes incluirlo en la lista de referencias.");
+        }
         public void citacion8(Office.IRibbonControl control)
         {
-            //Lista de referencias
+            //Referencia enlistada sin cita
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Este texto no hace parte del contenido.");
+            currentRange.Comments.Add(currentRange, "Este texto no hace parte del contenido. Revisa tu trabajo y si efectivamente lo usaste debes acomodar la cita de manera directa o indirecta y si no lo usaste sacar esta referencia. .");
         }
         public void citacion9(Office.IRibbonControl control)
         {
@@ -498,19 +498,19 @@ namespace EVAText
         {
             //Cita confirmatoria
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Para corroborar/respaldar esta afirmación debes citar.");
+            currentRange.Comments.Add(currentRange, "Para corroborar/respaldar esta afirmación debes citar y decir de dónde tomas la información. ");
         }
         public void citacion12(Office.IRibbonControl control)
         {
             // Cita posicionamiento
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "En la cita de posicionamiento el autor toma posición con respecto a la fuente que cita, desde una perspectiva crítica.");
+            currentRange.Comments.Add(currentRange, "Recuerda que en la cita de posicionamiento el autor toma posición con respecto a la fuente que cita, desde una perspectiva crítica. Así que debes trabajar en la escritura para que quede claro que tomas distancia del autor o incluir una cita de este tipo para mejorar tu argumento. .");
         }
         public void citacion13(Office.IRibbonControl control)
         {
             //Cita dialéctica
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "En la cita dialéctica el autor compara a varios autores para establecer comparaciones o aproximaciones.");
+            currentRange.Comments.Add(currentRange, "Recuerda que en la cita dialéctica el autor compara a varios autores para establecer comparaciones o aproximaciones. Así que revisa bien la manera en que estas poniendo a dialogar los autores para que se entienda bien la autoría de las ideas. O si solo estás usando una referencia, mi recomendación es que busques otra para que la pongas a dialogar con esta. Esto mejorara tu proceso de argumentación y claridad. ");
         }
         public void citacion14(Office.IRibbonControl control)
         {
@@ -522,19 +522,19 @@ namespace EVAText
         {
             //Títulos
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que el título principal debe ir centrado, en negrita y con cada letra inicial en mayúscula.");
+            currentRange.Comments.Add(currentRange, "Recuerda que el título principal debe ir centrado, en negrita, con cada letra inicial en mayúscula (excepto las preposiciones) y sin punto final.");
         }
         public void citacion16(Office.IRibbonControl control)
         {
-            //títulos
+            //subtítulos
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que el título debe ir alineado a la izquierda, en negrita y con cada letra inicial en mayúscula.");
+            currentRange.Comments.Add(currentRange, "Recuerda que el subtítulo debe ir alineado a la izquierda, con cada letra inicial en mayúscula (excepto las preposiciones) y sin punto final. ");
         }
         public void citacion17(Office.IRibbonControl control)
         {
             //Notas al pie
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Las notas al pie se usan para expandir información de los autores del texto o la información contenida en él, no para dar los datos de una referencia.");
+            currentRange.Comments.Add(currentRange, "Recuerda que las notas al pie se usan para expandir información de los autores del texto o la información contenida en él, no las uses para dar los datos de una referencia.");
         }
 
         public void citacion18(Office.IRibbonControl control)
@@ -547,7 +547,7 @@ namespace EVAText
         {
             //Índices o tablas de contenido
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Cuando se escriben textos muy largos es importante crear un índice donde queden claros los public voidtítulos y las páginas en las que el lector puede encontrarlos.");
+            currentRange.Comments.Add(currentRange, "Recuerda que cuando se escriben textos muy largos es importante que crees  un índice donde queden claros los subtítulos y las páginas en las que el lector puede encontrarlos.");
         }
         public void ED1(Office.IRibbonControl control)
         {
@@ -565,7 +565,7 @@ namespace EVAText
         {
             //Signos de exclamación
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que las expresiones que denotan  sorpresa, asombro, alegría, súplica, mandato, deseo.. van entre signos de exclamación.");
+            currentRange.Comments.Add(currentRange, " Usa signos de exclamación cuando emplees expresiones que denotan sorpresa, asombro, alegría, súplica, mandato, o deseo.");
         }
         public void ED4(Office.IRibbonControl control)
         {
@@ -577,19 +577,19 @@ namespace EVAText
         {
             //Puntos suspensivos
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que los puntos suspensivos pueden usarse al final de enumeraciones abiertas o incompletas, para reproducir una cita textual omitiendo una parte del final o para expresar duda. Van dentro de paréntesis (...) o corchetes [...] cuando al transcribir literalmente un texto se omite una parte de él.");
+            currentRange.Comments.Add(currentRange, "Recuerda que los puntos suspensivos debes usarlos al final de enumeraciones abiertas o incompletas, para reproducir una cita textual omitiendo una parte del final o para expresar duda. Van dentro de paréntesis (...) o corchetes [...] cuando al transcribir literalmente un texto se omite una parte de él.");
         }
         public void ED6(Office.IRibbonControl control)
         {
             //Sangría
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que para facilitar la comprensión de los párrafos se emplea sangría de primera línea en los párrafos sencillos, mientras que en las citas en bloque, los encabezados y las tablas y figuras no se usa.");
+            currentRange.Comments.Add(currentRange, "Recuerda que para facilitar la comprensión de los párrafos debes sangría de primera línea en los párrafos sencillos, mientras que en las citas en bloque, los encabezados, las tablas y las figuras no se usa. ");
         }
         public void ED7(Office.IRibbonControl control)
         {
             //Sesgos
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Es importante que respetes el lenguaje empleado por las personas para describirse a sí mismas; que escojas etiquetas con sensibilidad con las que te puedas asegurar de respetar la individualidad y la humanidad de las personas y evita las falsas jerarquías.");
+            currentRange.Comments.Add(currentRange, "Es importante que respetes el lenguaje empleado por las personas para describirse a sí mismas; que escojas etiquetas con sensibilidad con las que te puedas asegurar de respetar la individualidad y la humanidad de las personas y evitar las falsas jerarquías. ");
         }
         public void ED8(Office.IRibbonControl control)
         {
@@ -643,7 +643,7 @@ namespace EVAText
         {
             //Punto aparte
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que para separar dos párrafos distintos, que suelen desarrollar, dentro de la unidad del texto,contenidos diferentes, debe ir un punto aparte.");
+            currentRange.Comments.Add(currentRange, "Recuerda que para separar dos párrafos distintos que suelen desarrollar, dentro de la unidad del texto, contenidos diferentes, debe ir un punto aparte. Pero no lo uses al finalizar un título o un subtitulo, ni  en las indicaciones de lugar, ni fechas que encabezan cartas y documentos, ni en las cabeceras de tablas, ni después de signos de interrogación o exclamación.");
         }
         public void Delimitadores3(Office.IRibbonControl control)
         {
@@ -661,44 +661,44 @@ namespace EVAText
         {
             //Punto y coma de conjunción
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que se usa punto y coma delante de las conjunciones adversativas pero, más y aunque cuando las oraciones que encabezan tienen cierta longitud.");
+            currentRange.Comments.Add(currentRange, "Usa el punto y coma delante de las conjunciones adversativas (pero, más y aunque) cuando las oraciones que encabezan tienen cierta longitud.");
         }
 
         public void Delimitadores6(Office.IRibbonControl control)
         {
             //Dos puntos
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que los dos puntos sirven para detener el discurso para llamar la atención sobre lo que sigue, se usan para anunciar enumeración, antes de citas textuales, para conectar oraciones y para presentar una conclusión o explicación.");
+            currentRange.Comments.Add(currentRange, "Recuerda que los dos puntos sirven para detener el discurso y llamar la atención sobre lo que sigue, se usan para anunciar enumeración, antes de citas textuales, para conectar oraciones y para presentar una conclusión o explicación. Entonces revisa este fragmento.");
         }
         public void Delimitadores7(Office.IRibbonControl control)
         {
             //Coma enumerativa
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "La coma enumerativa se usa separar un conjunto de elementos que expresan características similares o simplemente se desean enumerar. Al nombrar estas palabras se usan conjunciones (y, o, u, ni), antes de ellas no se debe colocar una coma. ");
+            currentRange.Comments.Add(currentRange, "Puedes usar la coma enumerativa para separar un conjunto de elementos que expresan características similares o simplemente se desean enumerar. Al nombrar estas palabras se usan conjunciones (y, o, u, ni), antes de ellas no se debe poner una coma. ");
         }
         public void Delimitadores8(Office.IRibbonControl control)
         {
             //Coma vocativa
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "La coma vocativa se usa para marcar una diferencia entre el vocativo y el resto de la oración. El vocativo es la forma de dirigirse a una persona o más por su nombre o algo que lo distinga.");
+            currentRange.Comments.Add(currentRange, "Puedes usar la coma vocativa para marcar una diferencia entre el vocativo y el resto de la oración. El vocativo es la forma de dirigirse a una persona, ya sea por su nombre o algo que la distinga.");
         }
         public void Delimitadores9(Office.IRibbonControl control)
         {
             //Coma elíptica
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "La coma elíptica es utilizada para evitar redundancia en las oraciones. Se puede usar para sustituir un verbo o sustantivo que fue mencionado.");
+            currentRange.Comments.Add(currentRange, "Puedes usar la coma elíptica para sustituir un verbo o sustantivo que fue mencionado.");
         }
         public void Delimitadores10(Office.IRibbonControl control)
         {
             //Coma explicativa
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "La coma explicativa o incidental es utilizada para agregar datos adicionales del sujeto o el verbo.");
+            currentRange.Comments.Add(currentRange, "Puedes usar la coma explicativa o incidental para agregar datos adicionales del sujeto o el verbo.");
         }
         public void Delimitadores11(Office.IRibbonControl control)
         {
             //Coma apositiva
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, " La explicación que va entre las comas apositivas es un nombre o grupo de nombres. Ej.: María, mi vecina, regó las plantas en mis vacaciones.");
+            currentRange.Comments.Add(currentRange, " Puedes usar la coma apositiva para agregar una explicación entre un nombre o grupo de nombres.  Ej.: María, mi vecina, regó las plantas en mis vacaciones.");
         }
         public void Delimitadores12(Office.IRibbonControl control)
         {
@@ -716,19 +716,19 @@ namespace EVAText
         {
             //Guion
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Cuando se escriben textos muy largos es importante crear un índice donde queden claros los public voidtítulos y las páginas en las que el lector puede encontrarlos.");
+            currentRange.Comments.Add(currentRange, "Recuerda que en los textos académicos, debes emplear los guiones para unir palabras compuestas de manera temporal.");
         }
         public void Delimitadores15(Office.IRibbonControl control)
         {
             //Parentesis
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Cuando se emplea el discurso directo se emplean los parentesis para aclarar el apellido, la fecha de publicación de la cita y el numero de pagina si es textual. Mientras que si se emplea el discurso indirecto en el parentesis solo va la fecha de publicación y el numero de pagina en el caso que sea textual.");
+            currentRange.Comments.Add(currentRange, "Recuerda que cuando emplees el discurso directo debes usar los paréntesis para aclarar el apellido, la fecha de publicación de la cita y el número de página si es textual. Mientras que si se empleas el discurso indirecto en el paréntesis solo va la fecha de publicación y el número de página en caso de que sea textual. ");
         }
         public void Delimitadores16(Office.IRibbonControl control)
         {
             //Comillas
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Cuando se realiza una cita textual de menos de 40 palabras se debe poner entre comillas.");
+            currentRange.Comments.Add(currentRange, "Recuerda que cuando uses una cita textual de menos de 40 palabras, la debes poner entre comillas. ");
         }
         public void Delimitadores17(Office.IRibbonControl control)
         {
@@ -788,7 +788,7 @@ namespace EVAText
         {
             //Redonda
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Considera que los nombres de emisoras, editoriales, casos policiales, leyes, colecciones de obras, las monedas y los nombres propios debes escribirlos con letra redonda. ");
+            currentRange.Comments.Add(currentRange, "Considera que los nombres de emisoras, editoriales, casos policiales, leyes, colecciones de obras, las monedas y los nombres propios debes escribirlos con letra redonda.  ");
         }
 
 

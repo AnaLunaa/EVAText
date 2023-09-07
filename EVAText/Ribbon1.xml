@@ -8,14 +8,14 @@
 					<button id="Button1" label="Concordancia de número"  onAction="Micro1" />
 					<button id="Button2" label="Concordancia de género"  onAction="Micro2" />
 					<button id="Button3" label="Repetición léxica"  onAction="Micro3"/>
-					<button id="Button4" label="Imprecisión por homonimia" imageMso="H"  onAction="Micro4" supertip="Imprecisión por homonimia"/>
-					<button id="Button5" label="Imprecisión por polisemia" imageMso="P" onAction="Micro5" supertip="Imprecisión por homonimia"/>
-					<button id="Button6" label="Queísmo" imageMso="Q" onAction="Micro6" supertip="Queísmo"/>
-					<button id="Button7" label="Dequeísmo" imageMso="Q" onAction="Micro7" supertip="Concordancia de número"/>
-					<button id="Button8" label="Ausencia de predicado" imageMso="A"  onAction="Micro8" supertip="Concordancia de número"/>
-					<button id="Button9" label="Tiempo verbal incongruente" imageMso="T"  onAction="Micro9" supertip="Tiempo verbal incongruente"/>
-					<button id="Button10" label="Modo verbal incongruente" imageMso="M" onAction="Micro10" supertip="Modo verbal incongruente"/>
-					<button id="Button11" label="Condicional incongruente" imageMso="C" onAction="Micro11" supertip="Condicional incongruente"/>
+					<button id="Button4" label="Imprecisión por homonimia"  onAction="Micro4" supertip="Imprecisión por homonimia"/>
+					<button id="Button5" label="Imprecisión por polisemia" onAction="Micro5" supertip="Imprecisión por homonimia"/>
+					<button id="Button6" label="Queísmo" onAction="Micro6" supertip="Queísmo"/>
+					<button id="Button7" label="Dequeísmo" onAction="Micro7" supertip="Concordancia de número"/>
+					<button id="Button8" label="Ausencia de predicado"  onAction="Micro8" supertip="Concordancia de número"/>
+					<button id="Button9" label="Tiempo verbal incongruente" onAction="Micro9" supertip="Tiempo verbal incongruente"/>
+					<button id="Button10" label="Modo verbal incongruente" onAction="Micro10" supertip="Modo verbal incongruente"/>
+					<button id="Button11" label="Condicional incongruente" onAction="Micro11" supertip="Condicional incongruente"/>
 				</menu>
 			</group>
 			<group id="Group2" label="Cohesión">
@@ -70,6 +70,8 @@
 					<button id="Button118" label="Mayúscula después de dos puntos"  onAction="Delimitadores22" />
 					<button id="Button119" label="Mayúscula inicial de primera palabra"  onAction="Delimitadores23" />
 					<button id="Button120" label="Minúscula"  onAction="Delimitadores24" />
+					<button id="Button130" label="Coma criminal"  onAction="Delimitadores27" />
+					<button id="Button131" label="Punto criminal"  onAction="Delimitadores28" />
 				</menu>
 			</group>
 			<group id="Group4" label="Coherencia">
@@ -89,6 +91,13 @@
 					<button id="Button58" label="Incoherencia"  onAction="Coherencia11" />
 					<button id="Button59" label="Ambigüedad temática"  onAction="Coherencia12" />
 				</menu>
+				<menu id="Menu18" label="Párrafos" size="large" imageMso="P" >
+					<button id="Button125" label="Repetición"  onAction="Coherencia13" />
+					<button id="Button126" label="Párrafo frase"  onAction="Coherencia14" />
+					<button id="Button127" label="Párrafo extenso"  onAction="Coherencia15" />
+					<button id="Button128" label="Inconcluso"  onAction="Coherencia16" />
+					<button id="Button129" label="Desequilibrio"  onAction="Coherencia17" />
+					</menu>
 			</group>
 			<group id="Group5" label="Estructura">
 				<menu id="Menu8" label="Título" size="large" imageMso="E" >
@@ -121,7 +130,7 @@
 					<button id="Button75" label="Referencia de la cita en la lista"  onAction="citacion7" />
 					<button id="Button79" label="Referencia enlistada sin cita"  onAction="citacion8" />
 					<button id="Button123" label="Datos de referencias"  onAction="citacion9" />
-					
+					<button id="Button124" label="Mezcla de normas de citación"  onAction="citacion20" />
 				</menu>
 				<menu id="Menu12" label="Funciones" size="large" imageMso="F" >
 					<button id="Button81" label="De definición"  onAction="citacion10" />

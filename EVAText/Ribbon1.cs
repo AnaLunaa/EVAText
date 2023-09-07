@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography;
 using System.Text;
 using Office = Microsoft.Office.Core;
 
@@ -361,6 +362,36 @@ namespace EVAText
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
             currentRange.Comments.Add(currentRange, "Falta trabajar la claridad y la precisión, esta idea puede tener varios significados.");
         }
+        public void Coherencia13(Office.IRibbonControl control)
+        {
+            //Desequilibrio
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Estás combinando párrafos largos con cortos sin una razón evidente. Es importante mantener un equilibrio. Recuerda que cada párrafo debe estar relacionado con una idea principal y al menos una o cinco ideas secundarias que la respalden.");
+        }
+        public void Coherencia14(Office.IRibbonControl control)
+        {
+            //Repetición
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "En este párrafo estás repitiendo algo que ya mencionaste. Te sugiero revisar la idea que quieres trasmitir y reescribirla. ");
+        }
+        public void Coherencia15(Office.IRibbonControl control)
+        {
+            //Párrafo frase
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Ten cuidado, ya que un párrafo debe tener una idea principal y, como mínimo, una secundaria, pero aquí solo has escrito una frase. Refuerza  lo que quieres trasmitir con una o dos ideas secundarias.");
+        }
+        public void Coherencia16(Office.IRibbonControl control)
+        {
+            //Párrafo extenso
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Debido a la longitud de este párrafo, considera dividirlo en párrafos más cortos para mejorar la claridad y hacer la lectura más fácil. Cada uno con su propia idea central. ");
+        }
+        public void Coherencia17(Office.IRibbonControl control)
+        {
+            //Inconcluso
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Esta idea parece estar incompleta. Te recomiendo revisar su redacción para que se comprenda desde el principio hasta el final.");
+        }
         public void Estructura1(Office.IRibbonControl control)
         {
             //Extensión del título
@@ -452,7 +483,7 @@ namespace EVAText
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
             currentRange.Comments.Add(currentRange, "Recuerda que la cita en bloque es una reproducción literal mayor a 40 palabras. No va entre comillas pero si en un párrafo aparte y debes incluir el número de página.");
         }
-                public void citacion4(Office.IRibbonControl control)
+        public void citacion4(Office.IRibbonControl control)
         {
             //Autenticidad
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
@@ -504,13 +535,13 @@ namespace EVAText
         {
             // Cita posicionamiento
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que en la cita de posicionamiento el autor toma posición con respecto a la fuente que cita, desde una perspectiva crítica. Así que debes trabajar en la escritura para que quede claro que tomas distancia del autor o incluir una cita de este tipo para mejorar tu argumento. .");
+            currentRange.Comments.Add(currentRange, "No olvides que en la cita de posicionamiento estás expresando tu opinión crítica sobre la fuente que estás citando. Así que asegúrate de que tu escritura refleje claramente tu punto de vista y cómo te distancias o te relacionas con el autor. También puedes considerar incluir una cita que respalde tu argumento y lo refuerce. Esto hará que tu posición sea más sólida y convincente.");
         }
         public void citacion13(Office.IRibbonControl control)
         {
             //Cita dialéctica
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que en la cita dialéctica el autor compara a varios autores para establecer comparaciones o aproximaciones. Así que revisa bien la manera en que estas poniendo a dialogar los autores para que se entienda bien la autoría de las ideas. O si solo estás usando una referencia, mi recomendación es que busques otra para que la pongas a dialogar con esta. Esto mejorara tu proceso de argumentación y claridad. ");
+            currentRange.Comments.Add(currentRange, "Recuerda que en la cita dialéctica comparas varios autores para ver cómo se relacionan sus ideas. Así que asegúrate de que estás presentando sus ideas de manera clara. Si solo estás utilizando una referencia, te sugiero buscar otra para enriquecer la conversación entre los autores. Esto hará que tu argumentación sea más sólida y fácil de entender.");
         }
         public void citacion14(Office.IRibbonControl control)
         {
@@ -548,6 +579,12 @@ namespace EVAText
             //Índices o tablas de contenido
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
             currentRange.Comments.Add(currentRange, "Recuerda que cuando se escriben textos muy largos es importante que crees  un índice donde queden claros los subtítulos y las páginas en las que el lector puede encontrarlos.");
+        }
+        public void citacion20(Office.IRibbonControl control)
+        {
+            //Mezcla de normas de citación
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Es importante recordar que al citar fuentes en un trabajo académico o científico, es necesario elegir y seguir una norma de citación específica. No se debes mezclar diferentes normas en un mismo trabajo. Cada norma tiene sus propias reglas y formatos, como IEEE con el uso de corchetes, Vancouver con paréntesis, Chicago con notas al pie de página, y APA que utiliza el apellido y el año de publicación entre paréntesis en el texto.");
         }
         public void ED1(Office.IRibbonControl control)
         {
@@ -589,7 +626,7 @@ namespace EVAText
         {
             //Sesgos
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Es importante que respetes el lenguaje empleado por las personas para describirse a sí mismas; que escojas etiquetas con sensibilidad con las que te puedas asegurar de respetar la individualidad y la humanidad de las personas y evitar las falsas jerarquías. ");
+            currentRange.Comments.Add(currentRange, "Es fundamental mostrar respeto por el lenguaje que las personas utilizan para describirse a sí mismas. Elegir etiquetas y términos con sensibilidad es esencial para garantizar el respeto hacia la individualidad y la humanidad de cada persona. Esto no solo implica utilizar un lenguaje inclusivo y respetuoso, sino también evitar perpetuar falsas jerarquías o estereotipos. La empatía y el respeto hacia las elecciones lingüísticas de los demás son componentes esenciales de una comunicación respetuosa y comprensiva.  ");
         }
         public void ED8(Office.IRibbonControl control)
         {
@@ -790,14 +827,18 @@ namespace EVAText
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
             currentRange.Comments.Add(currentRange, "Considera que los nombres de emisoras, editoriales, casos policiales, leyes, colecciones de obras, las monedas y los nombres propios debes escribirlos con letra redonda.  ");
         }
-
-
-
-
-
-
-
-
+        public void Delimitadores27(Office.IRibbonControl control)
+        {
+            //Coma criminal
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Revisa los usos de las comas porque estas no se usan para separar los sujetos de sus complementos ni para separar oraciones.");
+        }
+        public void Delimitadores28(Office.IRibbonControl control)
+        {
+            //Punto criminal
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Revisa el empleo del punto seguido, porque este se usa para separar dos enunciados con su sujeto, verbo y complemento independiente. Pero si no se has cambiado la acción o el sujeto del que hablas debes revisar si lo que necesitas es una coma o un punto y coma.");
+        }
 
         #endregion
 

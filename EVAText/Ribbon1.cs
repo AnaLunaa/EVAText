@@ -670,6 +670,36 @@ namespace EVAText
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
             currentRange.Comments.Add(currentRange, "Para demostrar complicidad, un valor universal se emplea el plural o para mostrar modestia.");
         }
+        public void ED15(Office.IRibbonControl control)
+        {
+            //Narrar
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Si tu objetivo con el texto es narrar, debes adecuarte a la estructura de dicho género discursivo para lograrlo.");
+        }
+        public void ED16(Office.IRibbonControl control)
+        {
+            //Describir
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Si tu objetivo con el texto es describir, debes adecuarte a la estructura de dicho género discursivo para lograrlo.");
+        }
+        public void ED17(Office.IRibbonControl control)
+        {
+            //Exponer
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Si tu objetivo con el texto es exponer sobre un tema, debes adecuarte a la estructura de dicho género discursivo para lograrlo.");
+        }
+        public void ED18(Office.IRibbonControl control)
+        {
+            //Argumentar
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Si tu objetivo con el texto es argumentar sobre un tema o una postura, debes adecuarte a la estructura de dicho género discursivo para lograrlo.");
+        }
+        public void ED19(Office.IRibbonControl control)
+        {
+            //Instruir
+            Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
+            currentRange.Comments.Add(currentRange, "Si tu objetivo con el texto es instruir o guiar, debes adecuarte a la estructura de dicho género discursivo para lograrlo.");
+        }
         public void Delimitadores1(Office.IRibbonControl control)
         {
             //Punto seguido

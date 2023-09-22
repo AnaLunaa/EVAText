@@ -175,11 +175,11 @@
 					<button id="Button107" label="Plural inclusivo, sociativo o de modestia"  onAction="ED14" />
 				</menu>
 				<menu id="Menu17" label="Propósito" size="large" imageMso="P" >
-					<button id="Button108" label="Narrar"  onAction="ED14" />
-					<button id="Button109" label="Describir"  onAction="ED15" />
-					<button id="Button110" label="Exponer"  onAction="ED16" />
-					<button id="Button111" label="Argumentar"  onAction="ED17" />
-					<button id="Button112" label="Instruir"  onAction="ED17" />
+					<button id="Button108" label="Narrar"  onAction="ED15" />
+					<button id="Button109" label="Describir"  onAction="ED16" />
+					<button id="Button110" label="Exponer"  onAction="ED17" />
+					<button id="Button111" label="Argumentar"  onAction="ED18" />
+					<button id="Button112" label="Instruir"  onAction="ED19" />
 				</menu>
 			</group>
 		</tab>

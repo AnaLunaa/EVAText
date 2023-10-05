@@ -225,4 +225,17 @@ Signos de interrogación| Emplea signos de interrogación para delimitar las exp
 Puntos suspensivos | Recuerda que los puntos suspensivos debes usarlos al final de enumeraciones abiertas o incompletas, para reproducir una cita textual omitiendo una parte del final o para expresar duda. Van dentro de paréntesis (...) o corchetes [...] cuando al transcribir literalmente un texto se omite una parte de él
 Sangría | Recuerda que para facilitar la comprensión de los párrafos debes usar sangría de primera línea en los párrafos sencillos, mientras que, en las citas en bloque, los encabezados, las tablas y las figuras no se usa. 
 Sesgos| Es fundamental mostrar respeto por el lenguaje que las personas utilizan para describirse a sí mismas. Elegir etiquetas y términos con sensibilidad es esencial para garantizar el respeto hacia la individualidad y la humanidad de cada persona. Esto no solo implica utilizar un lenguaje inclusivo y respetuoso, sino también evitar perpetuar falsas jerarquías o estereotipos. La empatía y el respeto hacia las elecciones lingüísticas de los demás son componentes esenciales de una comunicación respetuosa y comprensiva
+**Problema comunicativo (Mediación)**  | **Comentario de retroalimentación**
+Macrorreglas textuales |  Para exponer la información relevante de un texto, puedes hacer uso de las siguientes macrorreglas: supresión (omitir información innecesaria), selección (elegir lo relevante), generalización (abstraer características comunes) e integración (fusionar conceptos
+Atenuación con *usted* | Recuerda que en los textos formales se emplea el "usted"
+Atenuación del acto amenazador| Recuerda emplear expresiones rituales como "por favor, muchas gracias"
+Atenuación con *se* | Recuerda emplear "se" para minimizar la amenaza a la propia imagen del hablante, para atenuar la fuerza de lo dicho o para eludir la responsabilidad
+Condicional de cortesía | Para expresar solicitud, sugerencia, ruego es mejor que emplees el condicional. Ej.: ¿Podrías abrir la ventana?
+Condicional de modestia | Para expresar una postura que puede estar en contradicción con la de los interlocutores es mejor emplees el condicional: diría que eso no es así
+Plural inclusivo, sociativo o de modestia | Para demostrar complicidad, un valor universal se emplea el plural o para mostrar modestia
+**Problema comunicativo (Propósito)**  | **Comentario de retroalimentación**
+Narrar| Si tu objetivo con el texto es narrar, debes adecuarte a la estructura de dicho género discursivo para lograrlo
+Exponer | Si tu objetivo con el texto es exponer sobre un tema, debes adecuarte a la estructura de dicho género discursivo para lograrlo
+Argumentar| Si tu objetivo con el texto es argumentar sobre un tema o una postura, debes adecuarte a la estructura de dicho género discursivo para lograrlo
+Instruir | Si tu objetivo con el texto es instruir o guiar, debes adecuarte a la estructura de dicho género discursivo para lograrlo
 

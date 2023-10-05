@@ -150,3 +150,79 @@ Párrafo extenso  | Debido a la longitud de este párrafo, considera dividirlo e
 Inconcluso  | Esta idea parece estar incompleta. Te recomiendo revisar su redacción para que se comprenda desde el principio hasta el final
 
 ## 3. Superestructura
+
+| Estructura              | Definición |
+| -------------            | ------------- |
+| Superestructura  |Esqueleto reconocible que caracteriza a un género discursivo |
+| **Características** | **Definición** |
+| Estructura textual | Modos de organizar globalmente la información en un texto, tanto en cuanto a la forma como en cuanto al contenido
+| Intertextualidad| Relación de un texto con otros
+| Estrategias discursivas | Son técnicas discursivas empleadas para desenvolverse de manera eficaz y adecuada teniendo en cuenta el contexto comunicativo
+| **Tipos de estructura textual** | **Definición** |
+| Título | Palabra o frase con que se da a conocer el nombre o asunto de un texto
+| Introducción| Sección que tiene como propósito ofrecer un preámbulo del tema que se va a tratar
+| Conclusiones| sección en la que se recoge la información más importante del texto desarrollado
+| **Tipos de intertextualidad** | **Definición** |
+| Citación | Formas de referenciar las otras voces del texto y que remiten a las lecturas realizadas por el hablante
+| Función discuriva| Papel particular de cada cita 
+| Paratextualidad |Refiere a los criterios editoriales que posibilitan la anticipación de la información y de su modalidad
+| Delimitadores | Mecanismo de organización textual que demarca unidades de acuerdo a la función que cumplen
+| **Tipos de estrategias discursivas** | **Definición** |
+| Modalización | Usos del lenguaje que indican la actitud del hablante con respecto a su interlocutor y a sus propios enunciados
+| Mediación | Actuaciones del interlocutor como un/a agente social que construye y trasmite significados
+| Propósito| Objetivo último para el cual un género discursivo es utilizado en un intercambio comunicativo 
+
+Problema comunicativo (Título)  |  Comentario de retroalimentación  | 
+------------- |       ------------- |     
+Extensión | Procura ser claro y preciso sin hacer uso de demasiadas palabras. (Máximo 12)
+Estructura | Ten cuidado con la sintaxis y la precisión léxica del título, procura tener un orden adecuado de las palabras y evita la polisemia. También evita el uso de abreviaturas, paréntesis o caracteres desconocidos
+Retórica textual | Trata en lo posible de indicar una acción en el título, además procura que sea denotativo o informativo
+Tema | Recuerda que el titulo debe ser coherente con el contenido y las ideas principales del escrito
+**Problema comunicativo (Introducción)**  | **Comentario de retroalimentación**
+Objetivos | Es importante que el punto de vista, objetivo del trabajo y sus intenciones queden claras desde el inicio
+Planteamiento del problema | Es necesario que aclares el problema y el contexto del tema
+Antecedentes | Antes de que pases al contenido, aclara los antecedentes del tema y los principales referentes teóricos que consultaste
+Enumeración del contenido | Es bueno que le aclares al lector los subtemas que desarrollarás en tu trabajo. Así como las principales fuentes de información que empleaste y para qué
+**Problema comunicativo (Conclusiones)**  | **Comentario de retroalimentación**
+Soluciones | Recuerda mencionar las posibles soluciones al problema que mencionaste en la introducción y abordaste en el contenido
+Aplicaciones | Sería importante que mencionaras las aplicaciones prácticas del tema que estás abordando
+Hipótesis | Recuerda explicar de manera clara y precisa cómo se cumplieron los objetivos mencionados en la introducción y abordados en el contenido, o si el punto de vista fue válido y//o hasta qué punto
+Implicaciones| Una buena estrategia de resumir el escrito en las conclusiones es enumerando los pro y los contras del tema y los principales subtemas abordados. Puedes aplicarlo
+**Problema comunicativo (Citación)**  | **Comentario de retroalimentación**
+Cita textual| Recuerda que la cita textual es una reproducción literal no mayor a 40 palabras, va entre comillas y debes incluir la página
+Cita narrativa o parafraseada| Recuerda que en la cita parafraseada se dice con palabras propias las ideas de otra fuente. No va entre comillas, ni lleva número de página
+Cita en bloque| Recuerda que la cita en bloque es una reproducción literal mayor a 40 palabras. No va entre comillas pero sí en un párrafo aparte y debes incluir el número de página.
+Referencia de la cita en la lista | Este texto no está enlistado en las referencias empleadas para hacer el trabajo. Debes incluirlo en la lista de referencias.
+Autenticidad | Es imprescindible que tu texto sea original, que sean tus ideas y tus palabras. Pero asegúrate de incluir referencias precisas cada vez que utilices ideas, datos o palabras de otros autores.
+Cita directa | Cuando reproduces las ideas de otro debes aclarar quién es. Para ello es importante que escribas su apellido y el año de la publicación entre el paréntesis (En APA) o escribas el superíndice (en IEEE) al final.
+Cita indirecta | Cuando dentro de la idea que citas empleas el apellido del autor debes aclarar el año de la publicación entre paréntesis (en APA) o el superíndice (en IEEE)
+Lista de referencias| Este texto no hace parte del contenido. Revisa tu trabajo y si efectivamente lo usaste debes acomodar la cita de manera directa o indirecta y si no lo usaste sacar esta referencia
+Datos de referencias | Teniendo en cuenta el tipo de texto que citaste, debes revisar cómo se organizarán los elementos: los datos del autor, el título, la editorial...
+Mezcla de normas de citación | Es importante recordar que al citar fuentes en un trabajo académico o científico, es necesario elegir y seguir una norma de citación específica. No se debe mezclar diferentes normas en un mismo trabajo. Cada norma tiene sus propias reglas y formatos, como IEEE con el uso de corchetes, Vancouver con paréntesis, Chicago con notas al pie de página, y APA que utiliza el apellido y el año de publicación entre paréntesis en el texto
+**Problema comunicativo (Funciones)**  | **Comentario de retroalimentación**
+Cita de definición | Recuerda que cuando estés definiendo conceptos debes decir de dónde salen
+Cita confirmatoria | Para corroborar/respaldar esta afirmación debes citar y decir de dónde tomas la información
+Cita de posicionamiento |No olvides que en la cita de posicionamiento, estás expresando tu opinión crítica sobre la fuente que estás citando. Así que asegúrate de que tu escritura refleje claramente tu punto de vista y cómo te distancias o te relacionas con el autor. También puedes considerar incluir una cita que respalde tu argumento y lo refuerce. Esto hará que tu posición sea más sólida y convincente
+Cita dialéctica | Recuerda que en la cita dialéctica, compara varios autores para ver cómo se relacionan sus ideas. Así que asegúrate de que estás presentando sus ideas de manera clara. Si solo estás utilizando una referencia, te sugiero buscar otra para enriquecer la conversación entre los autores. Esto hará que tu argumentación sea más sólida y fácil de entender
+Cita de apoyo o expansión| Crea una cita de apoyo  para indicarle al lector que existe información adicional para ser consultada. Generalmente se utiliza el término *véanse*
+**Problema comunicativo (Paratextos)**  | **Comentario de retroalimentación**
+Títulos| Recuerda que el título principal debe ir centrado, en negrita, con cada letra inicial en mayúscula (excepto las preposiciones) y sin punto final
+Subtítulos | Recuerda que el subtítulo debe ir alineado a la izquierda, con cada letra inicial en mayúscula (excepto las preposiciones) y sin punto final
+Notas al pie| Recuerda que las notas al pie se usan para expandir información de los autores del texto o la información contenida en él, no las uses para dar los datos de una referencia
+Ilustraciones y gráficas| Recuerda que las tablas e ilustraciones deben estar enumeradas, seguidas de su título y debajo una nota aclaratoria con las fuentes de información empleadas
+índices o tablas de contenido | Recuerda que cuando se escriben textos muy largos es importante que crees  un índice donde queden claros los subtítulos y las páginas en las que el lector puede encontrarlos
+**Problema comunicativo (Delimitadores)**  | **Comentario de retroalimentación**
+Guion | Recuerda que en los textos académicos, debes emplear los guiones para unir palabras compuestas de manera temporal
+Paréntesis| Recuerda que cuando emplees el discurso directo debes usar los paréntesis para aclarar el apellido, la fecha de publicación de la cita y el número de página si es textual. Mientras que si empleas el discurso indirecto, en el paréntesis solo va la fecha de publicación y el número de página en caso de que sea textual
+Comillas | Recuerda que cuando uses una cita textual de menos de 40 palabras, la debes poner entre comillas
+Cursiva| Ten en cuenta que debes poner cursiva en los extranjerismos no adaptados, incluidos los latinismos y nombres científicos. Igualmente, debes usarla en los títulos de las obras, tales como libros, discos o revistas, cuadros, películas, series de televisión...
+Redonda | Considera que los nombres de emisoras, editoriales, casos policiales, leyes, colecciones de obras, las monedas y los nombres propios debes escribirlos con letra redonda
+**Problema comunicativo (Modalización)**  | **Comentario de retroalimentación**
+Espaciado |  Usa el espaciado 1.5 para facilitar la lectura y la posterior corrección. Recuerda que los trabajos académicos tienen esta característica. 
+Letra | Emplea letras redondas, fáciles de leer y en tamaño 12
+Signos de exclamación |  Usa signos de exclamación cuando emplees expresiones que denotan sorpresa, asombro, alegría, súplica, mandato, o deseo
+Signos de interrogación| Emplea signos de interrogación para delimitar las expresiones interrogativas y exclamativas directas
+Puntos suspensivos | Recuerda que los puntos suspensivos debes usarlos al final de enumeraciones abiertas o incompletas, para reproducir una cita textual omitiendo una parte del final o para expresar duda. Van dentro de paréntesis (...) o corchetes [...] cuando al transcribir literalmente un texto se omite una parte de él
+Sangría | Recuerda que para facilitar la comprensión de los párrafos debes usar sangría de primera línea en los párrafos sencillos, mientras que, en las citas en bloque, los encabezados, las tablas y las figuras no se usa. 
+Sesgos| Es fundamental mostrar respeto por el lenguaje que las personas utilizan para describirse a sí mismas. Elegir etiquetas y términos con sensibilidad es esencial para garantizar el respeto hacia la individualidad y la humanidad de cada persona. Esto no solo implica utilizar un lenguaje inclusivo y respetuoso, sino también evitar perpetuar falsas jerarquías o estereotipos. La empatía y el respeto hacia las elecciones lingüísticas de los demás son componentes esenciales de una comunicación respetuosa y comprensiva
+

@@ -45,9 +45,9 @@
 					<button id="Button30" label="Repetición semántica"  onAction="Cohesion6" />
 					<button id="Button31" label="Repetición sintáctica"  onAction="Cohesion7" />
 					<button id="Button32" label="Repetición anafórica"  onAction="Cohesion8" />
-					<button id="Button33" label="Sinonimía"  onAction="Cohesion9" />
+					<button id="Button33" label="Sinonimia"  onAction="Cohesion9" />
 				</menu>
-				<menu id="Menu19" label="Gramátical " size="large" imageMso="G" >
+				<menu id="Menu19" label="Gramatical " size="large" imageMso="G" >
 					<button id="Button132" label="Referencia pronominal"  onAction="Cohesion10" />
 					<button id="Button133" label="Sujeto discursivo"  onAction="Cohesion11" />
 					<button id="Button134" label="Referencia personal"  onAction="Cohesion12" />
@@ -163,7 +163,7 @@
 				</menu>
 			</group>
 			<group id="Group7" label="Estrategias discursivas">
-				<menu id="Menu15" label="Modalización" size="large" imageMso="E" >
+				<menu id="Menu15" label="Modalización" size="large" imageMso="D" >
 					<button id="Button94" label="Espaciado"  onAction="ED1" />
 					<button id="Button95" label="Letra"  onAction="ED2" />
 					<button id="Button96" label="Signos de exclamación"  onAction="ED3" />

@@ -41,12 +41,19 @@
 					<button id="Button28" label="Temporal"  onAction="Cohesion4" />
 				</menu>
 				<menu id="Menu4" label="Léxica " size="large" imageMso="L" >
-					<button id="Button29" label="Referencia pronominal"  onAction="Cohesion5" />
-					<button id="Button30" label="Sujeto discursivo"  onAction="Cohesion6" />
-					<button id="Button31" label="Referencia personal"  onAction="Cohesion7" />
-					<button id="Button32" label="Referencia temporal"  onAction="Cohesion8" />
-					<button id="Button33" label="Referencia espacial"  onAction="Cohesion9" />
-					<button id="Button34" label="Referencia comparativa"  onAction="Cohesion10" />
+					<button id="Button29" label="Repetición léxica"  onAction="Cohesion5" />
+					<button id="Button30" label="Repetición semántica"  onAction="Cohesion6" />
+					<button id="Button31" label="Repetición sintáctica"  onAction="Cohesion7" />
+					<button id="Button32" label="Repetición anafórica"  onAction="Cohesion8" />
+					<button id="Button33" label="Sinonimía"  onAction="Cohesion9" />
+				</menu>
+				<menu id="Menu19" label="Gramátical " size="large" imageMso="G" >
+					<button id="Button132" label="Referencia pronominal"  onAction="Cohesion10" />
+					<button id="Button133" label="Sujeto discursivo"  onAction="Cohesion11" />
+					<button id="Button134" label="Referencia personal"  onAction="Cohesion12" />
+					<button id="Button135" label="Referencia temporal"  onAction="Cohesion13" />
+					<button id="Button136" label="Referencia espacial"  onAction="Cohesion14" />
+					<button id="Button137" label="Referencia comparativa"  onAction="Cohesion15" />
 				</menu>
 				<menu id="Menu5" label="Delimitadores" size="large" imageMso="D" >
 					<button id="Button35" label="Punto seguido"  onAction="Delimitadores1" />
@@ -86,8 +93,8 @@
 				<menu id="Menu7" label="Relaciones" size="large" imageMso="R" >
 					<button id="Button54" label="Contradicciones"  onAction="Coherencia7" />
 					<button id="Button55" label="Redundancias"  onAction="Coherencia8" />
-					<button id="Button56" label="Perdida del tema"  onAction="Coherencia9" />
-					<button id="Button57" label="Salto temáticos"  onAction="Coherencia10" />
+					<button id="Button56" label="Pérdida del tema"  onAction="Coherencia9" />
+					<button id="Button57" label="Saltos temáticos"  onAction="Coherencia10" />
 					<button id="Button58" label="Incoherencia"  onAction="Coherencia11" />
 					<button id="Button59" label="Ambigüedad temática"  onAction="Coherencia12" />
 				</menu>
@@ -143,12 +150,12 @@
 					<button id="Button86" label="Títulos"  onAction="citacion15" />
 					<button id="Button87" label="Subtítulos"  onAction="citacion16" />
 					<button id="Button88" label="Notas al pie"  onAction="citacion17" />
-					<button id="Button89" label="lustraciones y gráficas"  onAction="citacion18" />
+					<button id="Button89" label="Ilustraciones y gráficas"  onAction="citacion18" />
 					<button id="Button90" label="Índices o tablas de contenido"  onAction="citacion19" />
 				</menu>
 				<menu id="Menu14" label="Delimitadores" size="large" imageMso="D" >
 					<button id="Button91" label="Guion"  onAction="Delimitadores14" />
-					<button id="Button92" label="Parentesis"  onAction="Delimitadores15" />
+					<button id="Button92" label="Paréntesis"  onAction="Delimitadores15" />
 					<button id="Button93" label="Comillas"  onAction="Delimitadores16" />
 					<button id="Button121" label="Cursiva"  onAction="Delimitadores25" />
 					<button id="Button122" label="Redonda"  onAction="Delimitadores26" />
@@ -166,7 +173,7 @@
 					<button id="Button100" label="Sesgos"  onAction="ED7" />
 				</menu>
 				<menu id="Menu16" label="Mediación" size="large" imageMso="M" >
-					<button id="Button101" label="Macro reglas textuales"  onAction="ED8" />
+					<button id="Button101" label="Macroreglas textuales"  onAction="ED8" />
 					<button id="Button102" label="Atenuación con usted"  onAction="ED8" />
 					<button id="Button103" label="Atenuación del acto amenazador"  onAction="ED10" />
 					<button id="Button104" label="Atenuación con se"  onAction="ED11" />

@@ -59,7 +59,7 @@ namespace EVAText
             //Concordancia de número
 
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Debes tener en cuenta si el elemento al que te refieres está en singular o plural. ");
+            currentRange.Comments.Add(currentRange, "Debes tener en cuenta si el elemento al que te refieres está en singular o plural.");
         }
         public void Micro2(Office.IRibbonControl control)
         {
@@ -131,7 +131,7 @@ namespace EVAText
         {
             //MD2 ordenadores
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Para agrupan varios elementos como partes de un solo comentario, puedes usar: en primer lugar/en segundo lugar; por una parte/por otra parte; de un lado/de otro lado.");
+            currentRange.Comments.Add(currentRange, "Para agrupar varios elementos como partes de un solo comentario, puedes usar: en primer lugar/en segundo lugar; por una parte/por otra parte; de un lado/de otro lado.");
         }
         public void MD3(Office.IRibbonControl control)
         {
@@ -162,7 +162,7 @@ namespace EVAText
         {
             //MD7 explicativos
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Para introducir una nueva formulación de lo que se ha enunciado en el discurso previo, puedes usar: o sea, es decir, esto es, a saber; en otras palabras.");
+            currentRange.Comments.Add(currentRange, "Para introducir una nueva formulación de lo que se ha enunciado en el discurso previo, puedes usar: o sea, es decir, esto es, a saber, en otras palabras.");
         }
         public void MD8(Office.IRibbonControl control)
         {
@@ -222,7 +222,7 @@ namespace EVAText
         {
             //Cohesion Temporal
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Para expresar temporalidad, puedes usar las conjunciones mientras, mientras que, cuando, antes que, después que, aún no, luego que.");
+            currentRange.Comments.Add(currentRange, "Para expresar temporalidad, puedes usar las conjunciones mientras, mientras que, cuando, antes de que, antes de, después  que, aún no, luego que.");
         }
         public void Cohesion5(Office.IRibbonControl control)
         {
@@ -234,7 +234,7 @@ namespace EVAText
         {
             //repetición semántica
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Usa términos que están relacionados por su significado. Pueden ser sinónimos, antónimos, hiperónimos o hipónimos.");
+            currentRange.Comments.Add(currentRange, "Usa términos que estén relacionados por su significado. Pueden ser sinónimos, antónimos, hiperónimos o hipónimos.");
         }
         public void Cohesion7(Office.IRibbonControl control)
         {
@@ -336,13 +336,13 @@ namespace EVAText
         {
             //Redundancias
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Esto que mencionas es innecesario porque ya lo dijiste anteriormente.");
+            currentRange.Comments.Add(currentRange, "Esto que mencionas podrías omitirlo porque ya lo dijiste anteriormente. ");
         }
         public void Coherencia9(Office.IRibbonControl control)
         {
             //Perdida del tema
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, " Parece que estuvieras hablando de otra cosa diferente. No queda clara la relación de esta idea con el tema y propósito del escrito.");
+            currentRange.Comments.Add(currentRange, "  Parece que estuvieras hablando de un tema diferente. No queda clara la relación de esta idea con el tema y propósito del escrito.");
         }
         public void Coherencia10(Office.IRibbonControl control)
         {
@@ -450,7 +450,7 @@ namespace EVAText
         {
             //Aplicaciones
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Sería importante que mencionaras las aplicaciones prácticas del tema que estas abordando.");
+            currentRange.Comments.Add(currentRange, "Sería importante que mencionaras las aplicaciones prácticas del tema que estás abordando.");
         }
         public void Estructura11(Office.IRibbonControl control)
         {
@@ -481,7 +481,7 @@ namespace EVAText
         {
             //Cita en bloque
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que la cita en bloque es una reproducción literal mayor a 40 palabras. No va entre comillas pero si en un párrafo aparte y debes incluir el número de página.");
+            currentRange.Comments.Add(currentRange, "Recuerda que la cita en bloque es una reproducción literal mayor a 40 palabras. No va entre comillas pero sí en un párrafo aparte y debes incluir el número de página.");
         }
         public void citacion4(Office.IRibbonControl control)
         {
@@ -517,13 +517,13 @@ namespace EVAText
         {
             //Datos de referencias
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Teniendo en cuenta el tipo de texto que citaste, debes revisar cómo se organizaran los elementos: los datos del autor, el título, la editorial...");
+            currentRange.Comments.Add(currentRange, "Teniendo en cuenta el tipo de texto que citaste, debes revisar cómo se organizarán los elementos: los datos del autor, el título, la editorial...");
         }
         public void citacion10(Office.IRibbonControl control)
         {
             //Cita de definición
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que cuando estes definiendo conceptos debes decir de dónde sale.");
+            currentRange.Comments.Add(currentRange, "Recuerda que cuando estés definiendo conceptos debes decir de dónde salen. ");
         }
         public void citacion11(Office.IRibbonControl control)
         {
@@ -572,7 +572,7 @@ namespace EVAText
         {
             //Ilustraciones y gráficas
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que las tablas e ilustraciones deben estar enumeradas, seguidas de su título y debajo una nota aclaratoria con las fuentes de información empleadas.");
+            currentRange.Comments.Add(currentRange, "Recuerda que las tablas e ilustraciones deben estar enumeradas, seguidas de su título y debajo una nota aclaratoria con las fuentes de información empleadas. ");
         }
         public void citacion19(Office.IRibbonControl control)
         {
@@ -584,7 +584,7 @@ namespace EVAText
         {
             //Mezcla de normas de citación
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Es importante recordar que al citar fuentes en un trabajo académico o científico, es necesario elegir y seguir una norma de citación específica. No se debes mezclar diferentes normas en un mismo trabajo. Cada norma tiene sus propias reglas y formatos, como IEEE con el uso de corchetes, Vancouver con paréntesis, Chicago con notas al pie de página, y APA que utiliza el apellido y el año de publicación entre paréntesis en el texto.");
+            currentRange.Comments.Add(currentRange, "Es importante recordar que al citar fuentes en un trabajo académico o científico, es necesario elegir y seguir una norma de citación específica. Evita mezclar diferentes normas en un mismo trabajo. Cada norma tiene sus propias reglas y formatos, como IEEE con el uso de corchetes, Vancouver con paréntesis, Chicago con notas al pie de página, y APA que utiliza el apellido y el año de publicación entre paréntesis en el texto.");
         }
         public void ED1(Office.IRibbonControl control)
         {
@@ -620,7 +620,7 @@ namespace EVAText
         {
             //Sangría
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que para facilitar la comprensión de los párrafos debes sangría de primera línea en los párrafos sencillos, mientras que en las citas en bloque, los encabezados, las tablas y las figuras no se usa. ");
+            currentRange.Comments.Add(currentRange, "Recuerda que para facilitar la comprensión de los párrafos debes usar sangría de primera línea en los párrafos sencillos, mientras que en las citas en bloque, los encabezados, las tablas y las figuras no se usa. ");
         }
         public void ED7(Office.IRibbonControl control)
         {
@@ -668,7 +668,7 @@ namespace EVAText
         {
             //Plural inclusivo, sociativo o de modestia
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Para demostrar complicidad, un valor universal se emplea el plural o para mostrar modestia.");
+            currentRange.Comments.Add(currentRange, "Se emplea el plural para mostrar complicidad, modestia o un valor universal. ");
         }
         public void ED15(Office.IRibbonControl control)
         {
@@ -704,7 +704,7 @@ namespace EVAText
         {
             //Punto seguido
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que para separar enunciados que integran un mismo párrafo se debe usar el punto seguido.");
+            currentRange.Comments.Add(currentRange, "Recuerda que para separar enunciados que integran un mismo párrafo, debes usar el punto seguido y lo mismo sucede antes de comillas. Pero no lo uses después de signos de interrogación o exclamación.");
         }
         public void Delimitadores2(Office.IRibbonControl control)
         {
@@ -735,7 +735,7 @@ namespace EVAText
         {
             //Dos puntos
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que los dos puntos sirven para detener el discurso y llamar la atención sobre lo que sigue, se usan para anunciar enumeración, antes de citas textuales, para conectar oraciones y para presentar una conclusión o explicación. Entonces revisa este fragmento.");
+            currentRange.Comments.Add(currentRange, "Recuerda que los dos puntos sirven para detener el discurso y llamar la atención sobre lo que sigue, se usan para anunciar enumeración, antes de citas textuales, para conectar oraciones y para presentar una conclusión o explicación. Te sugiero revisar este fragmento.");
         }
         public void Delimitadores7(Office.IRibbonControl control)
         {
@@ -787,9 +787,9 @@ namespace EVAText
         }
         public void Delimitadores15(Office.IRibbonControl control)
         {
-            //Parentesis
+            //Paréntesis
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Recuerda que cuando emplees el discurso directo debes usar los paréntesis para aclarar el apellido, la fecha de publicación de la cita y el número de página si es textual. Mientras que si se empleas el discurso indirecto en el paréntesis solo va la fecha de publicación y el número de página en caso de que sea textual. ");
+            currentRange.Comments.Add(currentRange, "Recuerda que cuando emplees el discurso directo debes usar los paréntesis para aclarar el apellido, la fecha de publicación de la cita y el número de página si es textual. Mientras que si empleas el discurso indirecto, en el paréntesis solo va la fecha de publicación y el número de página en caso de que sea textual.  ");
         }
         public void Delimitadores16(Office.IRibbonControl control)
         {
@@ -819,13 +819,13 @@ namespace EVAText
         {
             //Mayúscula inicial
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Después de un punto seguido, un punto de interrogación o exclamación, es importante que utilices la mayúscula sostenida. Lo mismo aplica para los nombres propios de personas, cuerpos celestes, animales, plantas y objetos singularizados, signos del Zodiaco, accidentes geográficos, barrios, urbanizaciones, calles, espacios urbanos y vías de comunicación, establecimientos comerciales, culturales o recreativos, guerras, batallas, acontecimientos históricos relevantes, antropón");
+            currentRange.Comments.Add(currentRange, "Después de un punto seguido, un punto de interrogación o exclamación, es importante que utilices la mayúscula inicial. Lo mismo aplica para los nombres propios de personas, cuerpos celestes, animales, plantas y objetos singularizados, signos del Zodiaco, accidentes geográficos, barrios, urbanizaciones, calles, espacios urbanos y vías de comunicación, establecimientos comerciales, culturales o recreativos, guerras, batallas, acontecimientos históricos relevantes, antropón");
         }
         public void Delimitadores21(Office.IRibbonControl control)
         {
             //Mayúscula sostenida
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Ten en cuenta que la mayúscula sostenida solo debes emplearla en cabeceras de diarios y revistas, en siglas y acrónimos, en números romanos y para hacer énfasis en algo fundamental del escrito y buscas llamar la atención del lector.");
+            currentRange.Comments.Add(currentRange, "Ten en cuenta que la mayúscula sostenida solo debes emplearla en cabeceras de diarios y revistas, en siglas y acrónimos, en números romanos y para hacer énfasis en algo fundamental del escrito y buscar llamar la atención del lector.");
         }
         public void Delimitadores22(Office.IRibbonControl control)
         {
@@ -855,19 +855,19 @@ namespace EVAText
         {
             //Redonda
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Considera que los nombres de emisoras, editoriales, casos policiales, leyes, colecciones de obras, las monedas y los nombres propios debes escribirlos con letra redonda.  ");
+            currentRange.Comments.Add(currentRange, "Considera que los nombres de emisoras, editoriales, casos policiales, leyes, colecciones de obras, las monedas y los nombres propios debes escribirlos con letra redonda.");
         }
         public void Delimitadores27(Office.IRibbonControl control)
         {
             //Coma criminal
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Revisa los usos de las comas porque estas no se usan para separar los sujetos de sus complementos ni para separar oraciones.");
+            currentRange.Comments.Add(currentRange, "Revisa los usos de las comas, estas no se usan para separar los sujetos de sus complementos ni para separar oraciones. ");
         }
         public void Delimitadores28(Office.IRibbonControl control)
         {
             //Punto criminal
             Microsoft.Office.Interop.Word.Range currentRange = Globals.ThisAddIn.Application.Selection.Range;
-            currentRange.Comments.Add(currentRange, "Revisa el empleo del punto seguido, porque este se usa para separar dos enunciados con su sujeto, verbo y complemento independiente. Pero si no se has cambiado la acción o el sujeto del que hablas debes revisar si lo que necesitas es una coma o un punto y coma.");
+            currentRange.Comments.Add(currentRange, "Revisa el empleo del punto seguido. Porque este se usa para separar dos enunciados con su sujeto, verbo y complemento independiente. Pero si no se ha cambiado la acción o el sujeto del que hablas debes revisar si lo que necesitas es una coma o un punto y coma.");
         }
 
         #endregion

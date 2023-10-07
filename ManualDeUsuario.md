@@ -17,7 +17,7 @@ En Microsoft Word estos elementos se visualizan así:
 ![image](https://github.com/AnaLunaa/EVAText/assets/142351584/46bdcf1f-2cc8-40c5-a583-d3bba3c7ee71)
 
 ##  Navegación
-Para navegar por el complemento ubique el tipo de problema comunicativo que desea agregar como comentario en el documento. Luego dele click para que se despliegue el menu de opciónes donde podrá encontrar y seleccionar el problema específico que identificó previamente.En las tablas de a continuación puedes ver cómo se distribuyen los problemas comunicativos según su estructura (micro, macro, super).
+Para navegar por el complemento ubique el tipo de problema comunicativo que desea agregar como comentario en el documento. Luego dele click para que se despliegue el menu de opciónes donde podrá encontrar y seleccionar el problema específico que identificó previamente.En las siguientes tablas puedes ver cómo se distribuyen los problemas comunicativos según su estructura (micro, macro, super). Además, encontrarás los comentarios de retroalimentación que aparecerán en el control de cambios.
 
 ## 1. Microestructura
 
@@ -149,6 +149,11 @@ Párrafo frase   | Ten cuidado, ya que un párrafo debe tener una idea principal
 Párrafo extenso  | Debido a la longitud de este párrafo, considera dividirlo en párrafos más cortos para mejorar la claridad y hacer la lectura más fácil. Cada uno con su propia idea central
 Inconcluso  | Esta idea parece estar incompleta. Te recomiendo revisar su redacción para que se comprenda desde el principio hasta el final
 
+Imagen de referencia 
+
+![image](https://github.com/AnaLunaa/EVAText/assets/142351584/0ab0c8f3-cb66-498b-969d-765d5b757f5e)
+
+
 ## 3. Superestructura
 
 | Estructura              | Definición |
@@ -238,4 +243,31 @@ Narrar| Si tu objetivo con el texto es narrar, debes adecuarte a la estructura d
 Exponer | Si tu objetivo con el texto es exponer sobre un tema, debes adecuarte a la estructura de dicho género discursivo para lograrlo
 Argumentar| Si tu objetivo con el texto es argumentar sobre un tema o una postura, debes adecuarte a la estructura de dicho género discursivo para lograrlo
 Instruir | Si tu objetivo con el texto es instruir o guiar, debes adecuarte a la estructura de dicho género discursivo para lograrlo
+
+Imagen de referencia 
+
+ ![image](https://github.com/AnaLunaa/EVAText/assets/142351584/0d576f8b-a643-4c39-a23a-afecb5a85b7a)
+
+
+## Autores
+Laura Marcela Quintero Montoya
+
+Ana Luna Pulgarín Arango
+
+María Isabel Marín Morales
+
+Jorge Mauricio Molina Mejía
+
+
+Grupo de estudios sociolingüísticos
+
+Facultad de Comunicaciones y Filología
+
+Universidad de Antioquia UdeA, Calle 70 No. 52-21
+
+Medellín, Colombia.
+
+
+Contribución
+Financiado por la convocatoria ConTIC investigo de la Vicerrectoría de Docencia de la Universidad de Antioquia.
 

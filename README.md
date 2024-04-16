@@ -76,10 +76,10 @@ Cuando identifiques el error, resáltalo y busca en las pestallas del Complement
 
 
 ## Autores
--  Laura Marcela Quintero Montoya
--  Ana Luna Pulgarín Arango
--  María Isabel Marín Morales
--  Jorge Mauricio Molina Mejía
+-  Laura Marcela Quintero Montoya (lmarcela.quintero@udea.edu.co)
+-  Ana Luna Pulgarín Arango (aluna.pulgarin@udea.edu.co )
+-  María Isabel Marín Morales (m.i.marin.morales@rug.nl)
+-  Jorge Mauricio Molina Mejía (jorge.molina@udea.edu.co )
 
 
   Grupo de estudios sociolingüísticos
